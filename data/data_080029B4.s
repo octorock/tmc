@@ -160,13 +160,13 @@ gUnk_08003C22:: @ 08003C22
 gUnk_08003D03:: @ 08003D03
 	.incbin "baserom.gba", 0x003D03, 0x00000D1
 
-gUnk_08003DD4:: @ 08003DD4
+gUnk_08003DD4:: @ 08003DD4 @ asm/code_080A5574.s
 	.incbin "baserom.gba", 0x003DD4, 0x000002C
 
 gUnk_08003E00:: @ 08003E00
 	.incbin "baserom.gba", 0x003E00, 0x0000044
 
-gUnk_08003E44:: @ 08003E44
+gUnk_08003E44:: @ 08003E44 @ asm/bowUse.s, asm/code_08019444.s, asm/code_0806FA6C.s, asm/code_080A29BC.s, asm/item11.s, src/item14.c
 	.incbin "baserom.gba", 0x003E44, 0x0000032
 
 gUnk_08003E76:: @ 08003E76

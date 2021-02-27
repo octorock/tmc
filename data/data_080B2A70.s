@@ -7,7 +7,7 @@
 gUnk_080B2A70:: @ 080B2A70
 	.incbin "baserom.gba", 0x0B2A70, 0x0000268
 
-gUnk_080B2CD8:: @ 080B2CD8
-gUnk_080B2CD8_2:: @ 080B2CD8
-gUnk_080B2CD8_3:: @ 080B2CD8
+gUnk_080B2CD8:: @ 080B2CD8 @ asm/code_08016B30.s, src/main.c
+gUnk_080B2CD8_2:: @ 080B2CD8 @ asm/code_08016B30.s, src/main.c
+gUnk_080B2CD8_3:: @ 080B2CD8 @ asm/code_08016B30.s, src/main.c
 	.incbin "baserom.gba", 0x0B2CD8, 0x0000010

@@ -4,11 +4,11 @@
 	.section .rodata
 	.align 2
 
-gUnk_0811E4BC:: @ 0811E4BC
+gUnk_0811E4BC:: @ 0811E4BC @ src/save.c
 	.incbin "baserom.gba", 0x11E4BC, 0x0000054
 
-gUnk_0811E510:: @ 0811E510
+gUnk_0811E510:: @ 0811E510 @ src/script.c
 	.incbin "baserom.gba", 0x11E510, 0x0000004
 
-gUnk_0811E514:: @ 0811E514
+gUnk_0811E514:: @ 0811E514 @ src/script.c
 	.incbin "baserom.gba", 0x11E514, 0x0000010

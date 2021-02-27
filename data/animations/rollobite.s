@@ -4,7 +4,7 @@
 	.section .rodata
 	.align 2
 
-gUnk_080CA6D4:: @ 080CA6D4
+gUnk_080CA6D4:: @ 080CA6D4 @ src/enemy/rollobite.c
 	.incbin "baserom.gba", 0x0CA6D4, 0x0000003
 
 gUnk_080CA6D7:: @ 080CA6D7

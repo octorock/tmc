@@ -4,7 +4,7 @@
 	.section .rodata
 	.align 2
 
-gUnk_08007DF4:: @ 08007DF4
+gUnk_08007DF4:: @ 08007DF4 @ asm/code_0800857C.s, asm/code_08078778.s
 	.incbin "baserom.gba", 0x007DF4, 0x0000008
 
 gUnk_08007DFC:: @ 08007DFC
@@ -133,7 +133,7 @@ gUnk_0800821C:: @ 0800821C
 gUnk_08008232:: @ 08008232
 	.incbin "baserom.gba", 0x008232, 0x000000A
 
-gUnk_0800823C:: @ 0800823C
+gUnk_0800823C:: @ 0800823C @ asm/code_0800857C.s, asm/code_08078778.s
 	.incbin "baserom.gba", 0x00823C, 0x000003C
 
 gUnk_08008278:: @ 08008278
@@ -148,16 +148,16 @@ gUnk_080082AE:: @ 080082AE
 gUnk_080082DA:: @ 080082DA
 	.incbin "baserom.gba", 0x0082DA, 0x0000002
 
-gUnk_080082DC:: @ 080082DC
+gUnk_080082DC:: @ 080082DC @ asm/code_0800857C.s, asm/code_080732D0.s, asm/code_08078778.s
 	.incbin "baserom.gba", 0x0082DC, 0x0000060
 
-gUnk_0800833C:: @ 0800833C
+gUnk_0800833C:: @ 0800833C @ asm/code_0800857C.s, asm/code_08078778.s
 	.incbin "baserom.gba", 0x00833C, 0x000001D
 
 gUnk_08008359:: @ 08008359
 	.incbin "baserom.gba", 0x008359, 0x0000043
 
-gUnk_0800839C:: @ 0800839C
+gUnk_0800839C:: @ 0800839C @ asm/code_0800857C.s
 	.incbin "baserom.gba", 0x00839C, 0x0000012
 
 gUnk_080083AE:: @ 080083AE
@@ -169,23 +169,23 @@ gUnk_080083C1:: @ 080083C1
 gUnk_080083C7:: @ 080083C7
 	.incbin "baserom.gba", 0x0083C7, 0x0000035
 
-gUnk_080083FC:: @ 080083FC
+gUnk_080083FC:: @ 080083FC @ asm/code_0800857C.s
 	.incbin "baserom.gba", 0x0083FC, 0x000002A
 
 gUnk_08008426:: @ 08008426
 	.incbin "baserom.gba", 0x008426, 0x0000036
 
-gUnk_0800845C:: @ 0800845C
+gUnk_0800845C:: @ 0800845C @ asm/code_0800857C.s, asm/code_08078778.s
 	.incbin "baserom.gba", 0x00845C, 0x0000024
 
 gUnk_08008480:: @ 08008480
 	.incbin "baserom.gba", 0x008480, 0x000003C
 
-gUnk_080084BC:: @ 080084BC
+gUnk_080084BC:: @ 080084BC @ asm/code_0800857C.s, asm/code_08078778.s
 	.incbin "baserom.gba", 0x0084BC, 0x0000048
 
 gUnk_08008504:: @ 08008504
 	.incbin "baserom.gba", 0x008504, 0x0000018
 
-gUnk_0800851C:: @ 0800851C
+gUnk_0800851C:: @ 0800851C @ asm/code_0800857C.s, asm/code_08078778.s
 	.incbin "baserom.gba", 0x00851C, 0x0000060

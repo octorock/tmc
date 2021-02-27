@@ -262,7 +262,7 @@ gUnk_080D6098:: @ 080D6098
 gUnk_080D60C8:: @ 080D60C8
 	.incbin "baserom.gba", 0x0D60C8, 0x0000070
 
-gUnk_080D6138:: @ 080D6138
+gUnk_080D6138:: @ 080D6138 @ src/room.c
 	.incbin "baserom.gba", 0x0D6138, 0x0000060
 
 gUnk_080D6198:: @ 080D6198
@@ -274,7 +274,7 @@ gUnk_080D61A0:: @ 080D61A0
 gUnk_080D61C0:: @ 080D61C0
 	.incbin "baserom.gba", 0x0D61C0, 0x0000050
 
-gUnk_080D6210:: @ 080D6210
+gUnk_080D6210:: @ 080D6210 @ src/room.c
 	.incbin "baserom.gba", 0x0D6210, 0x0000050
 
 gUnk_080D6260:: @ 080D6260
@@ -295,31 +295,31 @@ gUnk_080D62FC:: @ 080D62FC
 gUnk_080D6320:: @ 080D6320
 	.incbin "baserom.gba", 0x0D6320, 0x0000020
 
-gUnk_080D6340:: @ 080D6340
+gUnk_080D6340:: @ 080D6340 @ src/room.c
 	.incbin "baserom.gba", 0x0D6340, 0x0000020
 
-gUnk_080D6360:: @ 080D6360
+gUnk_080D6360:: @ 080D6360 @ src/room.c
 	.incbin "baserom.gba", 0x0D6360, 0x0000020
 
-gUnk_080D6380:: @ 080D6380
+gUnk_080D6380:: @ 080D6380 @ src/room.c
 	.incbin "baserom.gba", 0x0D6380, 0x0000020
 
-gUnk_080D63A0:: @ 080D63A0
+gUnk_080D63A0:: @ 080D63A0 @ src/room.c
 	.incbin "baserom.gba", 0x0D63A0, 0x0000020
 
-gUnk_080D63C0:: @ 080D63C0
+gUnk_080D63C0:: @ 080D63C0 @ src/room.c
 	.incbin "baserom.gba", 0x0D63C0, 0x0000020
 
-gUnk_080D63E0:: @ 080D63E0
+gUnk_080D63E0:: @ 080D63E0 @ src/room.c
 	.incbin "baserom.gba", 0x0D63E0, 0x0000020
 
-gUnk_080D6400:: @ 080D6400
+gUnk_080D6400:: @ 080D6400 @ src/room.c
 	.incbin "baserom.gba", 0x0D6400, 0x0000020
 
-gUnk_080D6420:: @ 080D6420
+gUnk_080D6420:: @ 080D6420 @ src/room.c
 	.incbin "baserom.gba", 0x0D6420, 0x0000020
 
-gUnk_080D6440:: @ 080D6440
+gUnk_080D6440:: @ 080D6440 @ src/room.c
 	.incbin "baserom.gba", 0x0D6440, 0x0000020
 
 gUnk_080D6460:: @ 080D6460
@@ -331,10 +331,10 @@ gUnk_080D64E0:: @ 080D64E0
 gUnk_080D64F0:: @ 080D64F0
 	.incbin "baserom.gba", 0x0D64F0, 0x0000008
 
-gUnk_080D64F8:: @ 080D64F8
+gUnk_080D64F8:: @ 080D64F8 @ src/room.c
 	.incbin "baserom.gba", 0x0D64F8, 0x0000010
 
-gUnk_080D6508:: @ 080D6508
+gUnk_080D6508:: @ 080D6508 @ src/room.c
 	.incbin "baserom.gba", 0x0D6508, 0x0000010
 
 gUnk_080D6518:: @ 080D6518
@@ -343,19 +343,19 @@ gUnk_080D6518:: @ 080D6518
 gUnk_080D6538:: @ 080D6538
 	.incbin "baserom.gba", 0x0D6538, 0x0000020
 
-gUnk_080D6558:: @ 080D6558
+gUnk_080D6558:: @ 080D6558 @ src/room.c
 	.incbin "baserom.gba", 0x0D6558, 0x0000020
 
-gUnk_080D6578:: @ 080D6578
+gUnk_080D6578:: @ 080D6578 @ src/room.c
 	.incbin "baserom.gba", 0x0D6578, 0x0000020
 
 gUnk_080D6598:: @ 080D6598
 	.incbin "baserom.gba", 0x0D6598, 0x0000080
 
-gUnk_080D6618:: @ 080D6618
+gUnk_080D6618:: @ 080D6618 @ src/room.c
 	.incbin "baserom.gba", 0x0D6618, 0x0000020
 
-gUnk_080D6638:: @ 080D6638
+gUnk_080D6638:: @ 080D6638 @ src/room.c
 	.incbin "baserom.gba", 0x0D6638, 0x0000020
 
 gUnk_080D6658:: @ 080D6658
@@ -379,13 +379,13 @@ gUnk_080D66A8:: @ 080D66A8
 gUnk_080D66D4:: @ 080D66D4
 	.incbin "baserom.gba", 0x0D66D4, 0x0000020
 
-gUnk_080D66F4:: @ 080D66F4
+gUnk_080D66F4:: @ 080D66F4 @ src/room.c
 	.incbin "baserom.gba", 0x0D66F4, 0x0000020
 
-gUnk_080D6714:: @ 080D6714
+gUnk_080D6714:: @ 080D6714 @ src/room.c
 	.incbin "baserom.gba", 0x0D6714, 0x0000020
 
-gUnk_080D6734:: @ 080D6734
+gUnk_080D6734:: @ 080D6734 @ src/room.c
 	.incbin "baserom.gba", 0x0D6734, 0x0000080
 
 gUnk_080D67B4:: @ 080D67B4
@@ -403,7 +403,7 @@ gUnk_080D68CC:: @ 080D68CC
 gUnk_080D68F4:: @ 080D68F4
 	.incbin "baserom.gba", 0x0D68F4, 0x0000030
 
-gUnk_080D6924:: @ 080D6924
+gUnk_080D6924:: @ 080D6924 @ src/room.c
 	.incbin "baserom.gba", 0x0D6924, 0x0000030
 
 gUnk_080D6954:: @ 080D6954
@@ -439,7 +439,7 @@ gUnk_080D6A54:: @ 080D6A54
 gUnk_080D6A64:: @ 080D6A64
 	.incbin "baserom.gba", 0x0D6A64, 0x0000010
 
-gUnk_080D6A74:: @ 080D6A74
+gUnk_080D6A74:: @ 080D6A74 @ src/room.c
 	.incbin "baserom.gba", 0x0D6A74, 0x000000C
 
 gUnk_080D6A80:: @ 080D6A80
@@ -463,7 +463,7 @@ gUnk_080D6AF8:: @ 080D6AF8
 gUnk_080D6B08:: @ 080D6B08
 	.incbin "baserom.gba", 0x0D6B08, 0x0000010
 
-gUnk_080D6B18:: @ 080D6B18
+gUnk_080D6B18:: @ 080D6B18 @ src/room.c
 	.incbin "baserom.gba", 0x0D6B18, 0x0000008
 
 gUnk_080D6B20:: @ 080D6B20
@@ -490,7 +490,7 @@ gUnk_080D6B98:: @ 080D6B98
 gUnk_080D6BA8:: @ 080D6BA8
 	.incbin "baserom.gba", 0x0D6BA8, 0x0000010
 
-gUnk_080D6BB8:: @ 080D6BB8
+gUnk_080D6BB8:: @ 080D6BB8 @ src/room.c
 	.incbin "baserom.gba", 0x0D6BB8, 0x000000C
 
 gUnk_080D6BC4:: @ 080D6BC4
@@ -571,7 +571,7 @@ gUnk_080D6FF4:: @ 080D6FF4
 gUnk_080D7018:: @ 080D7018
 	.incbin "baserom.gba", 0x0D7018, 0x0000020
 
-gUnk_080D7038:: @ 080D7038
+gUnk_080D7038:: @ 080D7038 @ src/room.c
 	.incbin "baserom.gba", 0x0D7038, 0x0000020
 
 gUnk_080D7058:: @ 080D7058
@@ -589,19 +589,19 @@ gUnk_080D7100:: @ 080D7100
 gUnk_080D7120:: @ 080D7120
 	.incbin "baserom.gba", 0x0D7120, 0x0000020
 
-gUnk_080D7140:: @ 080D7140
+gUnk_080D7140:: @ 080D7140 @ src/room.c
 	.incbin "baserom.gba", 0x0D7140, 0x0000030
 
-gUnk_080D7170:: @ 080D7170
+gUnk_080D7170:: @ 080D7170 @ src/room.c
 	.incbin "baserom.gba", 0x0D7170, 0x0000030
 
-gUnk_080D71A0:: @ 080D71A0
+gUnk_080D71A0:: @ 080D71A0 @ src/room.c
 	.incbin "baserom.gba", 0x0D71A0, 0x0000030
 
-gUnk_080D71D0:: @ 080D71D0
+gUnk_080D71D0:: @ 080D71D0 @ src/room.c
 	.incbin "baserom.gba", 0x0D71D0, 0x0000020
 
-gUnk_080D71F0:: @ 080D71F0
+gUnk_080D71F0:: @ 080D71F0 @ src/room.c
 	.incbin "baserom.gba", 0x0D71F0, 0x0000030
 
 gUnk_080D7220:: @ 080D7220
@@ -628,10 +628,10 @@ gUnk_080D72D8:: @ 080D72D8
 gUnk_080D7308:: @ 080D7308
 	.incbin "baserom.gba", 0x0D7308, 0x0000020
 
-gUnk_080D7328:: @ 080D7328
+gUnk_080D7328:: @ 080D7328 @ src/room.c
 	.incbin "baserom.gba", 0x0D7328, 0x0000020
 
-gUnk_080D7348:: @ 080D7348
+gUnk_080D7348:: @ 080D7348 @ src/room.c
 	.incbin "baserom.gba", 0x0D7348, 0x0000020
 
 gUnk_080D7368:: @ 080D7368
@@ -646,13 +646,13 @@ gUnk_080D7380:: @ 080D7380
 gUnk_080D73A0:: @ 080D73A0
 	.incbin "baserom.gba", 0x0D73A0, 0x0000010
 
-gUnk_080D73B0:: @ 080D73B0
+gUnk_080D73B0:: @ 080D73B0 @ src/room.c
 	.incbin "baserom.gba", 0x0D73B0, 0x0000030
 
-gUnk_080D73E0:: @ 080D73E0
+gUnk_080D73E0:: @ 080D73E0 @ src/room.c
 	.incbin "baserom.gba", 0x0D73E0, 0x0000030
 
-gUnk_080D7410:: @ 080D7410
+gUnk_080D7410:: @ 080D7410 @ src/room.c
 	.incbin "baserom.gba", 0x0D7410, 0x0000070
 
 gUnk_080D7480:: @ 080D7480
@@ -667,16 +667,16 @@ gUnk_080D7498:: @ 080D7498
 gUnk_080D74B8:: @ 080D74B8
 	.incbin "baserom.gba", 0x0D74B8, 0x0000010
 
-gUnk_080D74C8:: @ 080D74C8
+gUnk_080D74C8:: @ 080D74C8 @ src/room.c
 	.incbin "baserom.gba", 0x0D74C8, 0x00000C0
 
-gUnk_080D7588:: @ 080D7588
+gUnk_080D7588:: @ 080D7588 @ src/room.c
 	.incbin "baserom.gba", 0x0D7588, 0x0000050
 
-gUnk_080D75D8:: @ 080D75D8
+gUnk_080D75D8:: @ 080D75D8 @ src/room.c
 	.incbin "baserom.gba", 0x0D75D8, 0x0000040
 
-gUnk_080D7618:: @ 080D7618
+gUnk_080D7618:: @ 080D7618 @ src/room.c
 	.incbin "baserom.gba", 0x0D7618, 0x0000020
 
 gUnk_080D7638:: @ 080D7638
@@ -691,7 +691,7 @@ gUnk_080D7650:: @ 080D7650
 gUnk_080D7670:: @ 080D7670
 	.incbin "baserom.gba", 0x0D7670, 0x0000020
 
-gUnk_080D7690:: @ 080D7690
+gUnk_080D7690:: @ 080D7690 @ src/room.c
 	.incbin "baserom.gba", 0x0D7690, 0x0000040
 
 gUnk_080D76D0:: @ 080D76D0
@@ -862,7 +862,7 @@ gUnk_080D7CE4:: @ 080D7CE4
 gUnk_080D7D04:: @ 080D7D04
 	.incbin "baserom.gba", 0x0D7D04, 0x0000030
 
-gUnk_080D7D34:: @ 080D7D34
+gUnk_080D7D34:: @ 080D7D34 @ src/room.c
 	.incbin "baserom.gba", 0x0D7D34, 0x0000040
 
 gUnk_080D7D74:: @ 080D7D74
@@ -955,7 +955,7 @@ gUnk_080D822C:: @ 080D822C
 gUnk_080D824C:: @ 080D824C
 	.incbin "baserom.gba", 0x0D824C, 0x0000030
 
-gUnk_080D827C:: @ 080D827C
+gUnk_080D827C:: @ 080D827C @ src/room.c
 	.incbin "baserom.gba", 0x0D827C, 0x0000050
 
 gUnk_080D82CC:: @ 080D82CC
@@ -1108,22 +1108,22 @@ gUnk_080D89A4:: @ 080D89A4
 gUnk_080D89C4:: @ 080D89C4
 	.incbin "baserom.gba", 0x0D89C4, 0x0000020
 
-gUnk_080D89E4:: @ 080D89E4
+gUnk_080D89E4:: @ 080D89E4 @ src/room.c
 	.incbin "baserom.gba", 0x0D89E4, 0x0000020
 
-gUnk_080D8A04:: @ 080D8A04
+gUnk_080D8A04:: @ 080D8A04 @ src/room.c
 	.incbin "baserom.gba", 0x0D8A04, 0x0000030
 
-gUnk_080D8A34:: @ 080D8A34
+gUnk_080D8A34:: @ 080D8A34 @ src/room.c
 	.incbin "baserom.gba", 0x0D8A34, 0x0000040
 
-gUnk_080D8A74:: @ 080D8A74
+gUnk_080D8A74:: @ 080D8A74 @ src/room.c
 	.incbin "baserom.gba", 0x0D8A74, 0x0000050
 
-gUnk_080D8AC4:: @ 080D8AC4
+gUnk_080D8AC4:: @ 080D8AC4 @ src/room.c
 	.incbin "baserom.gba", 0x0D8AC4, 0x0000060
 
-gUnk_080D8B24:: @ 080D8B24
+gUnk_080D8B24:: @ 080D8B24 @ src/room.c
 	.incbin "baserom.gba", 0x0D8B24, 0x0000070
 
 gUnk_080D8B94:: @ 080D8B94
@@ -1132,13 +1132,13 @@ gUnk_080D8B94:: @ 080D8B94
 gUnk_080D8BA4:: @ 080D8BA4
 	.incbin "baserom.gba", 0x0D8BA4, 0x0000018
 
-gUnk_080D8BBC:: @ 080D8BBC
+gUnk_080D8BBC:: @ 080D8BBC @ src/room.c
 	.incbin "baserom.gba", 0x0D8BBC, 0x000003E
 
-gUnk_080D8BFA:: @ 080D8BFA
+gUnk_080D8BFA:: @ 080D8BFA @ src/room.c
 	.incbin "baserom.gba", 0x0D8BFA, 0x000006E
 
-gUnk_080D8C68:: @ 080D8C68
+gUnk_080D8C68:: @ 080D8C68 @ src/room.c
 	.incbin "baserom.gba", 0x0D8C68, 0x000009E
 
 gUnk_080D8D06:: @ 080D8D06
@@ -1150,7 +1150,7 @@ gUnk_080D8D44:: @ 080D8D44
 gUnk_080D8DB2:: @ 080D8DB2
 	.incbin "baserom.gba", 0x0D8DB2, 0x000009E
 
-gUnk_080D8E50:: @ 080D8E50
+gUnk_080D8E50:: @ 080D8E50 @ asm/non_matching/sub_0804BF38.inc, src/room.c
 	.incbin "baserom.gba", 0x0D8E50, 0x0000060
 
 gUnk_080D8EB0:: @ 080D8EB0
@@ -1177,13 +1177,13 @@ gUnk_080D8FB8:: @ 080D8FB8
 gUnk_080D9048:: @ 080D9048
 	.incbin "baserom.gba", 0x0D9048, 0x0000050
 
-gUnk_080D9098:: @ 080D9098
+gUnk_080D9098:: @ 080D9098 @ src/room.c
 	.incbin "baserom.gba", 0x0D9098, 0x0000030
 
-gUnk_080D90C8:: @ 080D90C8
+gUnk_080D90C8:: @ 080D90C8 @ src/room.c
 	.incbin "baserom.gba", 0x0D90C8, 0x0000040
 
-gUnk_080D9108:: @ 080D9108
+gUnk_080D9108:: @ 080D9108 @ src/room.c
 	.incbin "baserom.gba", 0x0D9108, 0x0000020
 
 gUnk_080D9128:: @ 080D9128
@@ -1207,16 +1207,16 @@ gUnk_080D92D0:: @ 080D92D0
 gUnk_080D92E0:: @ 080D92E0
 	.incbin "baserom.gba", 0x0D92E0, 0x0000048
 
-gUnk_080D9328:: @ 080D9328
+gUnk_080D9328:: @ 080D9328 @ asm/non_matching/sub_0804C128.inc
 	.incbin "baserom.gba", 0x0D9328, 0x0000010
 
-gUnk_080D9338:: @ 080D9338
+gUnk_080D9338:: @ 080D9338 @ asm/non_matching/sub_0804C128.inc
 	.incbin "baserom.gba", 0x0D9338, 0x0000008
 
-gUnk_080D9340:: @ 080D9340
+gUnk_080D9340:: @ 080D9340 @ asm/non_matching/sub_0804C128.inc
 	.incbin "baserom.gba", 0x0D9340, 0x0000008
 
-gUnk_080D9348:: @ 080D9348
+gUnk_080D9348:: @ 080D9348 @ asm/non_matching/sub_0804C290.inc
 	.incbin "baserom.gba", 0x0D9348, 0x0000020
 
 gUnk_080D9368:: @ 080D9368
@@ -1279,7 +1279,7 @@ gUnk_080D97A0:: @ 080D97A0
 gUnk_080D97C0:: @ 080D97C0
 	.incbin "baserom.gba", 0x0D97C0, 0x0000040
 
-gUnk_080D9800:: @ 080D9800
+gUnk_080D9800:: @ 080D9800 @ src/room.c
 	.incbin "baserom.gba", 0x0D9800, 0x0000030
 
 gUnk_080D9830:: @ 080D9830
@@ -1312,16 +1312,16 @@ gUnk_080D9AB8:: @ 080D9AB8
 gUnk_080D9AD8:: @ 080D9AD8
 	.incbin "baserom.gba", 0x0D9AD8, 0x0000160
 
-gUnk_080D9C38:: @ 080D9C38
+gUnk_080D9C38:: @ 080D9C38 @ src/room.c
 	.incbin "baserom.gba", 0x0D9C38, 0x0000070
 
 gUnk_080D9CA8:: @ 080D9CA8
 	.incbin "baserom.gba", 0x0D9CA8, 0x0000020
 
-gUnk_080D9CC8:: @ 080D9CC8
+gUnk_080D9CC8:: @ 080D9CC8 @ src/room.c
 	.incbin "baserom.gba", 0x0D9CC8, 0x0000020
 
-gUnk_080D9CE8:: @ 080D9CE8
+gUnk_080D9CE8:: @ 080D9CE8 @ src/room.c
 	.incbin "baserom.gba", 0x0D9CE8, 0x0000020
 
 gUnk_080D9D08:: @ 080D9D08
@@ -1444,7 +1444,7 @@ gUnk_080DA1F0:: @ 080DA1F0
 gUnk_080DA210:: @ 080DA210
 	.incbin "baserom.gba", 0x0DA210, 0x0000020
 
-gUnk_080DA230:: @ 080DA230
+gUnk_080DA230:: @ 080DA230 @ src/room.c
 	.incbin "baserom.gba", 0x0DA230, 0x0000070
 
 gUnk_080DA2A0:: @ 080DA2A0
@@ -1690,37 +1690,37 @@ gUnk_080DAAB4:: @ 080DAAB4
 gUnk_080DAAD4:: @ 080DAAD4
 	.incbin "baserom.gba", 0x0DAAD4, 0x0000070
 
-gUnk_080DAB44:: @ 080DAB44
+gUnk_080DAB44:: @ 080DAB44 @ src/room.c
 	.incbin "baserom.gba", 0x0DAB44, 0x0000020
 
-gUnk_080DAB64:: @ 080DAB64
+gUnk_080DAB64:: @ 080DAB64 @ src/room.c
 	.incbin "baserom.gba", 0x0DAB64, 0x0000020
 
-gUnk_080DAB84:: @ 080DAB84
+gUnk_080DAB84:: @ 080DAB84 @ src/room.c
 	.incbin "baserom.gba", 0x0DAB84, 0x0000040
 
-gUnk_080DABC4:: @ 080DABC4
+gUnk_080DABC4:: @ 080DABC4 @ src/room.c
 	.incbin "baserom.gba", 0x0DABC4, 0x0000040
 
-gUnk_080DAC04:: @ 080DAC04
+gUnk_080DAC04:: @ 080DAC04 @ src/room.c
 	.incbin "baserom.gba", 0x0DAC04, 0x0000050
 
-gUnk_080DAC54:: @ 080DAC54
+gUnk_080DAC54:: @ 080DAC54 @ src/room.c
 	.incbin "baserom.gba", 0x0DAC54, 0x0000040
 
-gUnk_080DAC94:: @ 080DAC94
+gUnk_080DAC94:: @ 080DAC94 @ src/room.c
 	.incbin "baserom.gba", 0x0DAC94, 0x0000040
 
-gUnk_080DACD4:: @ 080DACD4
+gUnk_080DACD4:: @ 080DACD4 @ src/room.c
 	.incbin "baserom.gba", 0x0DACD4, 0x0000050
 
-gUnk_080DAD24:: @ 080DAD24
+gUnk_080DAD24:: @ 080DAD24 @ src/room.c
 	.incbin "baserom.gba", 0x0DAD24, 0x0000040
 
-gUnk_080DAD64:: @ 080DAD64
+gUnk_080DAD64:: @ 080DAD64 @ src/room.c
 	.incbin "baserom.gba", 0x0DAD64, 0x0000040
 
-gUnk_080DADA4:: @ 080DADA4
+gUnk_080DADA4:: @ 080DADA4 @ src/room.c
 	.incbin "baserom.gba", 0x0DADA4, 0x0000050
 
 gUnk_080DADF4:: @ 080DADF4
@@ -1741,7 +1741,7 @@ gUnk_080DAEB4:: @ 080DAEB4
 gUnk_080DAED8:: @ 080DAED8
 	.incbin "baserom.gba", 0x0DAED8, 0x0000010
 
-gUnk_080DAEE8:: @ 080DAEE8
+gUnk_080DAEE8:: @ 080DAEE8 @ src/room.c
 	.incbin "baserom.gba", 0x0DAEE8, 0x0000020
 
 gUnk_080DAF08:: @ 080DAF08
@@ -1759,7 +1759,7 @@ gUnk_080DAF50:: @ 080DAF50
 gUnk_080DAF70:: @ 080DAF70
 	.incbin "baserom.gba", 0x0DAF70, 0x0000010
 
-gUnk_080DAF80:: @ 080DAF80
+gUnk_080DAF80:: @ 080DAF80 @ src/room.c
 	.incbin "baserom.gba", 0x0DAF80, 0x0000020
 
 gUnk_080DAFA0:: @ 080DAFA0
@@ -1777,7 +1777,7 @@ gUnk_080DAFE8:: @ 080DAFE8
 gUnk_080DB008:: @ 080DB008
 	.incbin "baserom.gba", 0x0DB008, 0x0000010
 
-gUnk_080DB018:: @ 080DB018
+gUnk_080DB018:: @ 080DB018 @ src/room.c
 	.incbin "baserom.gba", 0x0DB018, 0x0000020
 
 gUnk_080DB038:: @ 080DB038
@@ -1840,7 +1840,7 @@ gUnk_080DB208:: @ 080DB208
 gUnk_080DB228:: @ 080DB228
 	.incbin "baserom.gba", 0x0DB228, 0x0000010
 
-gUnk_080DB238:: @ 080DB238
+gUnk_080DB238:: @ 080DB238 @ src/room.c
 	.incbin "baserom.gba", 0x0DB238, 0x0000020
 
 gUnk_080DB258:: @ 080DB258
@@ -1918,10 +1918,10 @@ gUnk_080DB470:: @ 080DB470
 gUnk_080DB490:: @ 080DB490
 	.incbin "baserom.gba", 0x0DB490, 0x0000010
 
-gUnk_080DB4A0:: @ 080DB4A0
+gUnk_080DB4A0:: @ 080DB4A0 @ src/room.c
 	.incbin "baserom.gba", 0x0DB4A0, 0x0000030
 
-gUnk_080DB4D0:: @ 080DB4D0
+gUnk_080DB4D0:: @ 080DB4D0 @ src/room.c
 	.incbin "baserom.gba", 0x0DB4D0, 0x0000030
 
 gUnk_080DB500:: @ 080DB500
@@ -2014,16 +2014,16 @@ gUnk_080DB7E0:: @ 080DB7E0
 gUnk_080DB800:: @ 080DB800
 	.incbin "baserom.gba", 0x0DB800, 0x0000020
 
-gUnk_080DB820:: @ 080DB820
+gUnk_080DB820:: @ 080DB820 @ src/room.c
 	.incbin "baserom.gba", 0x0DB820, 0x0000020
 
 gUnk_080DB840:: @ 080DB840
 	.incbin "baserom.gba", 0x0DB840, 0x00000B0
 
-gUnk_080DB8F0:: @ 080DB8F0
+gUnk_080DB8F0:: @ 080DB8F0 @ src/room.c
 	.incbin "baserom.gba", 0x0DB8F0, 0x0000020
 
-gUnk_080DB910:: @ 080DB910
+gUnk_080DB910:: @ 080DB910 @ src/room.c
 	.incbin "baserom.gba", 0x0DB910, 0x0000070
 
 gUnk_080DB980:: @ 080DB980
@@ -2044,7 +2044,7 @@ gUnk_080DB9BC:: @ 080DB9BC
 gUnk_080DB9E8:: @ 080DB9E8
 	.incbin "baserom.gba", 0x0DB9E8, 0x0000020
 
-gUnk_080DBA08:: @ 080DBA08
+gUnk_080DBA08:: @ 080DBA08 @ src/room.c
 	.incbin "baserom.gba", 0x0DBA08, 0x0000020
 
 gUnk_080DBA28:: @ 080DBA28
@@ -2062,19 +2062,19 @@ gUnk_080DBA80:: @ 080DBA80
 gUnk_080DBAA0:: @ 080DBAA0
 	.incbin "baserom.gba", 0x0DBAA0, 0x0000030
 
-gUnk_080DBAD0:: @ 080DBAD0
+gUnk_080DBAD0:: @ 080DBAD0 @ src/room.c
 	.incbin "baserom.gba", 0x0DBAD0, 0x0000040
 
-gUnk_080DBB10:: @ 080DBB10
+gUnk_080DBB10:: @ 080DBB10 @ src/room.c
 	.incbin "baserom.gba", 0x0DBB10, 0x0000040
 
-gUnk_080DBB50:: @ 080DBB50
+gUnk_080DBB50:: @ 080DBB50 @ src/room.c
 	.incbin "baserom.gba", 0x0DBB50, 0x0000020
 
-gUnk_080DBB70:: @ 080DBB70
+gUnk_080DBB70:: @ 080DBB70 @ src/room.c
 	.incbin "baserom.gba", 0x0DBB70, 0x0000020
 
-gUnk_080DBB90:: @ 080DBB90
+gUnk_080DBB90:: @ 080DBB90 @ src/room.c
 	.incbin "baserom.gba", 0x0DBB90, 0x0000020
 
 gUnk_080DBBB0:: @ 080DBBB0
@@ -2212,22 +2212,22 @@ gUnk_080DC260:: @ 080DC260
 gUnk_080DC280:: @ 080DC280
 	.incbin "baserom.gba", 0x0DC280, 0x0000110
 
-gUnk_080DC390:: @ 080DC390
+gUnk_080DC390:: @ 080DC390 @ src/room.c
 	.incbin "baserom.gba", 0x0DC390, 0x0000060
 
-gUnk_080DC3F0:: @ 080DC3F0
+gUnk_080DC3F0:: @ 080DC3F0 @ src/room.c
 	.incbin "baserom.gba", 0x0DC3F0, 0x0000040
 
-gUnk_080DC430:: @ 080DC430
+gUnk_080DC430:: @ 080DC430 @ src/room.c
 	.incbin "baserom.gba", 0x0DC430, 0x0000040
 
-gUnk_080DC470:: @ 080DC470
+gUnk_080DC470:: @ 080DC470 @ src/room.c
 	.incbin "baserom.gba", 0x0DC470, 0x0000050
 
-gUnk_080DC4C0:: @ 080DC4C0
+gUnk_080DC4C0:: @ 080DC4C0 @ src/room.c
 	.incbin "baserom.gba", 0x0DC4C0, 0x0000070
 
-gUnk_080DC530:: @ 080DC530
+gUnk_080DC530:: @ 080DC530 @ src/room.c
 	.incbin "baserom.gba", 0x0DC530, 0x0000020
 
 gUnk_080DC550:: @ 080DC550
@@ -2392,7 +2392,7 @@ gUnk_080DCAD0:: @ 080DCAD0
 gUnk_080DCAF0:: @ 080DCAF0
 	.incbin "baserom.gba", 0x0DCAF0, 0x0000020
 
-gUnk_080DCB10:: @ 080DCB10
+gUnk_080DCB10:: @ 080DCB10 @ src/room.c
 	.incbin "baserom.gba", 0x0DCB10, 0x0000030
 
 gUnk_080DCB40:: @ 080DCB40
@@ -2575,13 +2575,13 @@ gUnk_080DD124:: @ 080DD124
 gUnk_080DD144:: @ 080DD144
 	.incbin "baserom.gba", 0x0DD144, 0x00000D0
 
-gUnk_080DD214:: @ 080DD214
+gUnk_080DD214:: @ 080DD214 @ src/room.c
 	.incbin "baserom.gba", 0x0DD214, 0x0000060
 
-gUnk_080DD274:: @ 080DD274
+gUnk_080DD274:: @ 080DD274 @ src/room.c
 	.incbin "baserom.gba", 0x0DD274, 0x0000020
 
-gUnk_080DD294:: @ 080DD294
+gUnk_080DD294:: @ 080DD294 @ src/room.c
 	.incbin "baserom.gba", 0x0DD294, 0x0000020
 
 gUnk_080DD2B4:: @ 080DD2B4
@@ -2599,7 +2599,7 @@ gUnk_080DD31C:: @ 080DD31C
 gUnk_080DD344:: @ 080DD344
 	.incbin "baserom.gba", 0x0DD344, 0x0000020
 
-gUnk_080DD364:: @ 080DD364
+gUnk_080DD364:: @ 080DD364 @ src/room.c
 	.incbin "baserom.gba", 0x0DD364, 0x0000020
 
 gUnk_080DD384:: @ 080DD384
@@ -2632,19 +2632,19 @@ gUnk_080DD6CC:: @ 080DD6CC
 gUnk_080DD70C:: @ 080DD70C
 	.incbin "baserom.gba", 0x0DD70C, 0x0000044
 
-gUnk_080DD750:: @ 080DD750
+gUnk_080DD750:: @ 080DD750 @ src/object/cloud.c
 	.incbin "baserom.gba", 0x0DD750, 0x0000040
 
 gUnk_080DD790:: @ 080DD790
 	.incbin "baserom.gba", 0x0DD790, 0x0000050
 
-gUnk_080DD7E0:: @ 080DD7E0
+gUnk_080DD7E0:: @ 080DD7E0 @ src/room.c
 	.incbin "baserom.gba", 0x0DD7E0, 0x0000040
 
 gUnk_080DD820:: @ 080DD820
 	.incbin "baserom.gba", 0x0DD820, 0x0000020
 
-gUnk_080DD840:: @ 080DD840
+gUnk_080DD840:: @ 080DD840 @ src/room.c
 	.incbin "baserom.gba", 0x0DD840, 0x0000040
 
 gUnk_080DD880:: @ 080DD880
@@ -2734,7 +2734,7 @@ gUnk_080DDE20:: @ 080DDE20
 gUnk_080DDE48:: @ 080DDE48
 	.incbin "baserom.gba", 0x0DDE48, 0x0000040
 
-gUnk_080DDE88:: @ 080DDE88
+gUnk_080DDE88:: @ 080DDE88 @ src/room.c
 	.incbin "baserom.gba", 0x0DDE88, 0x0000020
 
 gUnk_080DDEA8:: @ 080DDEA8
@@ -2779,7 +2779,7 @@ gUnk_080DDFE8:: @ 080DDFE8
 gUnk_080DE000:: @ 080DE000
 	.incbin "baserom.gba", 0x0DE000, 0x0000008
 
-gUnk_080DE008:: @ 080DE008
+gUnk_080DE008:: @ 080DE008 @ src/room.c
 	.incbin "baserom.gba", 0x0DE008, 0x0000020
 
 gUnk_080DE028:: @ 080DE028
@@ -2800,10 +2800,10 @@ gUnk_080DE12C:: @ 080DE12C
 gUnk_080DE150:: @ 080DE150
 	.incbin "baserom.gba", 0x0DE150, 0x0000090
 
-gUnk_080DE1E0:: @ 080DE1E0
+gUnk_080DE1E0:: @ 080DE1E0 @ src/room.c
 	.incbin "baserom.gba", 0x0DE1E0, 0x0000020
 
-gUnk_080DE200:: @ 080DE200
+gUnk_080DE200:: @ 080DE200 @ src/room.c
 	.incbin "baserom.gba", 0x0DE200, 0x0000020
 
 gUnk_080DE220:: @ 080DE220
@@ -2842,7 +2842,7 @@ gUnk_080DE39C:: @ 080DE39C
 gUnk_080DE3D8:: @ 080DE3D8
 	.incbin "baserom.gba", 0x0DE3D8, 0x00000F0
 
-gUnk_080DE4C8:: @ 080DE4C8
+gUnk_080DE4C8:: @ 080DE4C8 @ src/room.c
 	.incbin "baserom.gba", 0x0DE4C8, 0x0000020
 
 gUnk_080DE4E8:: @ 080DE4E8
@@ -2884,10 +2884,10 @@ gUnk_080DE7B4:: @ 080DE7B4
 gUnk_080DE7E4:: @ 080DE7E4
 	.incbin "baserom.gba", 0x0DE7E4, 0x0000030
 
-gUnk_080DE814:: @ 080DE814
+gUnk_080DE814:: @ 080DE814 @ src/room.c
 	.incbin "baserom.gba", 0x0DE814, 0x0000020
 
-gUnk_080DE834:: @ 080DE834
+gUnk_080DE834:: @ 080DE834 @ src/room.c
 	.incbin "baserom.gba", 0x0DE834, 0x0000030
 
 gUnk_080DE864:: @ 080DE864
@@ -3115,7 +3115,7 @@ gUnk_080DF916:: @ 080DF916
 gUnk_080DF91C:: @ 080DF91C
 	.incbin "baserom.gba", 0x0DF91C, 0x0000030
 
-gUnk_080DF94C:: @ 080DF94C
+gUnk_080DF94C:: @ 080DF94C @ src/room.c
 	.incbin "baserom.gba", 0x0DF94C, 0x0000030
 
 gUnk_080DF97C:: @ 080DF97C
@@ -3169,7 +3169,7 @@ gUnk_080DFB48:: @ 080DFB48
 gUnk_080DFB68:: @ 080DFB68
 	.incbin "baserom.gba", 0x0DFB68, 0x0000010
 
-gUnk_080DFB78:: @ 080DFB78
+gUnk_080DFB78:: @ 080DFB78 @ src/room.c
 	.incbin "baserom.gba", 0x0DFB78, 0x0000020
 
 gUnk_080DFB98:: @ 080DFB98
@@ -3631,7 +3631,7 @@ gUnk_080E101C:: @ 080E101C
 gUnk_080E1024:: @ 080E1024
 	.incbin "baserom.gba", 0x0E1024, 0x0000018
 
-gUnk_080E103C:: @ 080E103C
+gUnk_080E103C:: @ 080E103C @ src/room.c
 	.incbin "baserom.gba", 0x0E103C, 0x0000020
 
 gUnk_080E105C:: @ 080E105C
@@ -3931,7 +3931,7 @@ gUnk_080E17E4:: @ 080E17E4
 gUnk_080E180F:: @ 080E180F
 	.incbin "baserom.gba", 0x0E180F, 0x0000005
 
-gUnk_080E1814:: @ 080E1814
+gUnk_080E1814:: @ 080E1814 @ src/room.c
 	.incbin "baserom.gba", 0x0E1814, 0x0000005
 
 gUnk_080E1819:: @ 080E1819
@@ -4450,7 +4450,7 @@ gUnk_080E3790:: @ 080E3790
 gUnk_080E37B0:: @ 080E37B0
 	.incbin "baserom.gba", 0x0E37B0, 0x00000A0
 
-gUnk_080E3850:: @ 080E3850
+gUnk_080E3850:: @ 080E3850 @ src/room.c
 	.incbin "baserom.gba", 0x0E3850, 0x0000020
 
 gUnk_080E3870:: @ 080E3870
@@ -4711,7 +4711,7 @@ gUnk_080E4944:: @ 080E4944
 gUnk_080E49C4:: @ 080E49C4
 	.incbin "baserom.gba", 0x0E49C4, 0x0000030
 
-gUnk_080E49F4:: @ 080E49F4
+gUnk_080E49F4:: @ 080E49F4 @ src/room.c
 	.incbin "baserom.gba", 0x0E49F4, 0x0000030
 
 gUnk_080E4A24:: @ 080E4A24
@@ -4738,13 +4738,13 @@ gUnk_080E4B48:: @ 080E4B48
 gUnk_080E4B68:: @ 080E4B68
 	.incbin "baserom.gba", 0x0E4B68, 0x0000070
 
-gUnk_080E4BD8:: @ 080E4BD8
+gUnk_080E4BD8:: @ 080E4BD8 @ src/room.c
 	.incbin "baserom.gba", 0x0E4BD8, 0x0000020
 
 gUnk_080E4BF8:: @ 080E4BF8
 	.incbin "baserom.gba", 0x0E4BF8, 0x0000010
 
-gUnk_080E4C08:: @ 080E4C08
+gUnk_080E4C08:: @ 080E4C08 @ src/manager/manager15.c
 	.incbin "baserom.gba", 0x0E4C08, 0x0000030
 
 gUnk_080E4C38:: @ 080E4C38
@@ -4759,10 +4759,10 @@ gUnk_080E4C68:: @ 080E4C68
 gUnk_080E4C88:: @ 080E4C88
 	.incbin "baserom.gba", 0x0E4C88, 0x0000050
 
-gUnk_080E4CD8:: @ 080E4CD8
+gUnk_080E4CD8:: @ 080E4CD8 @ src/room.c
 	.incbin "baserom.gba", 0x0E4CD8, 0x0000020
 
-gUnk_080E4CF8:: @ 080E4CF8
+gUnk_080E4CF8:: @ 080E4CF8 @ src/room.c
 	.incbin "baserom.gba", 0x0E4CF8, 0x0000020
 
 gUnk_080E4D18:: @ 080E4D18
@@ -4894,10 +4894,10 @@ gUnk_080E5460:: @ 080E5460
 gUnk_080E5480:: @ 080E5480
 	.incbin "baserom.gba", 0x0E5480, 0x00001E0
 
-gUnk_080E5660:: @ 080E5660
+gUnk_080E5660:: @ 080E5660 @ src/room.c
 	.incbin "baserom.gba", 0x0E5660, 0x0000020
 
-gUnk_080E5680:: @ 080E5680
+gUnk_080E5680:: @ 080E5680 @ src/room.c
 	.incbin "baserom.gba", 0x0E5680, 0x0000020
 
 gUnk_080E56A0:: @ 080E56A0
@@ -4984,10 +4984,10 @@ gUnk_080E5DAC:: @ 080E5DAC
 gUnk_080E5DCC:: @ 080E5DCC
 	.incbin "baserom.gba", 0x0E5DCC, 0x0000070
 
-gUnk_080E5E3C:: @ 080E5E3C
+gUnk_080E5E3C:: @ 080E5E3C @ src/room.c
 	.incbin "baserom.gba", 0x0E5E3C, 0x0000020
 
-gUnk_080E5E5C:: @ 080E5E5C
+gUnk_080E5E5C:: @ 080E5E5C @ src/room.c
 	.incbin "baserom.gba", 0x0E5E5C, 0x0000020
 
 gUnk_080E5E7C:: @ 080E5E7C
@@ -5116,7 +5116,7 @@ gUnk_080E678C:: @ 080E678C
 gUnk_080E67AC:: @ 080E67AC
 	.incbin "baserom.gba", 0x0E67AC, 0x0000190
 
-gUnk_080E693C:: @ 080E693C
+gUnk_080E693C:: @ 080E693C @ src/room.c
 	.incbin "baserom.gba", 0x0E693C, 0x0000030
 
 gUnk_080E696C:: @ 080E696C
@@ -5224,10 +5224,10 @@ gUnk_080E714C:: @ 080E714C
 gUnk_080E716C:: @ 080E716C
 	.incbin "baserom.gba", 0x0E716C, 0x0000020
 
-gUnk_080E718C:: @ 080E718C
+gUnk_080E718C:: @ 080E718C @ src/room.c
 	.incbin "baserom.gba", 0x0E718C, 0x0000020
 
-gUnk_080E71AC:: @ 080E71AC
+gUnk_080E71AC:: @ 080E71AC @ src/room.c
 	.incbin "baserom.gba", 0x0E71AC, 0x0000020
 
 gUnk_080E71CC:: @ 080E71CC
@@ -5242,13 +5242,13 @@ gUnk_080E7204:: @ 080E7204
 gUnk_080E7224:: @ 080E7224
 	.incbin "baserom.gba", 0x0E7224, 0x00000A0
 
-gUnk_080E72C4:: @ 080E72C4
+gUnk_080E72C4:: @ 080E72C4 @ src/room.c
 	.incbin "baserom.gba", 0x0E72C4, 0x0000020
 
-gUnk_080E72E4:: @ 080E72E4
+gUnk_080E72E4:: @ 080E72E4 @ src/room.c
 	.incbin "baserom.gba", 0x0E72E4, 0x0000030
 
-gUnk_080E7314:: @ 080E7314
+gUnk_080E7314:: @ 080E7314 @ src/room.c
 	.incbin "baserom.gba", 0x0E7314, 0x0000030
 
 gUnk_080E7344:: @ 080E7344
@@ -5845,7 +5845,7 @@ gUnk_080E9F20:: @ 080E9F20
 gUnk_080E9F4C:: @ 080E9F4C
 	.incbin "baserom.gba", 0x0E9F4C, 0x0000150
 
-gUnk_080EA09C:: @ 080EA09C
+gUnk_080EA09C:: @ 080EA09C @ src/room.c
 	.incbin "baserom.gba", 0x0EA09C, 0x0000050
 
 gUnk_080EA0EC:: @ 080EA0EC
@@ -6034,10 +6034,10 @@ gUnk_080EAD38:: @ 080EAD38
 gUnk_080EAD48:: @ 080EAD48
 	.incbin "baserom.gba", 0x0EAD48, 0x0000020
 
-gUnk_080EAD68:: @ 080EAD68
+gUnk_080EAD68:: @ 080EAD68 @ src/room.c
 	.incbin "baserom.gba", 0x0EAD68, 0x0000050
 
-gUnk_080EADB8:: @ 080EADB8
+gUnk_080EADB8:: @ 080EADB8 @ src/room.c
 	.incbin "baserom.gba", 0x0EADB8, 0x0000030
 
 gUnk_080EADE8:: @ 080EADE8
@@ -6046,7 +6046,7 @@ gUnk_080EADE8:: @ 080EADE8
 gUnk_080EADF8:: @ 080EADF8
 	.incbin "baserom.gba", 0x0EADF8, 0x0000008
 
-gUnk_080EAE00:: @ 080EAE00
+gUnk_080EAE00:: @ 080EAE00 @ src/room.c
 	.incbin "baserom.gba", 0x0EAE00, 0x0000020
 
 gUnk_080EAE20:: @ 080EAE20
@@ -6055,13 +6055,13 @@ gUnk_080EAE20:: @ 080EAE20
 gUnk_080EAE40:: @ 080EAE40
 	.incbin "baserom.gba", 0x0EAE40, 0x0000020
 
-gUnk_080EAE60:: @ 080EAE60
+gUnk_080EAE60:: @ 080EAE60 @ src/room.c
 	.incbin "baserom.gba", 0x0EAE60, 0x0000060
 
-gUnk_080EAEC0:: @ 080EAEC0
+gUnk_080EAEC0:: @ 080EAEC0 @ src/room.c
 	.incbin "baserom.gba", 0x0EAEC0, 0x0000060
 
-gUnk_080EAF20:: @ 080EAF20
+gUnk_080EAF20:: @ 080EAF20 @ src/room.c
 	.incbin "baserom.gba", 0x0EAF20, 0x0000020
 
 gUnk_080EAF40:: @ 080EAF40
@@ -6178,10 +6178,10 @@ gUnk_080EB568:: @ 080EB568
 gUnk_080EB594:: @ 080EB594
 	.incbin "baserom.gba", 0x0EB594, 0x0000040
 
-gUnk_080EB5D4:: @ 080EB5D4
+gUnk_080EB5D4:: @ 080EB5D4 @ src/room.c
 	.incbin "baserom.gba", 0x0EB5D4, 0x0000030
 
-gUnk_080EB604:: @ 080EB604
+gUnk_080EB604:: @ 080EB604 @ src/room.c
 	.incbin "baserom.gba", 0x0EB604, 0x0000060
 
 gUnk_080EB664:: @ 080EB664
@@ -6190,7 +6190,7 @@ gUnk_080EB664:: @ 080EB664
 gUnk_080EB674:: @ 080EB674
 	.incbin "baserom.gba", 0x0EB674, 0x0000010
 
-gUnk_080EB684:: @ 080EB684
+gUnk_080EB684:: @ 080EB684 @ src/room.c
 	.incbin "baserom.gba", 0x0EB684, 0x0000080
 
 gUnk_080EB704:: @ 080EB704
@@ -6259,13 +6259,13 @@ gUnk_080EB9C4:: @ 080EB9C4
 gUnk_080EB9E4:: @ 080EB9E4
 	.incbin "baserom.gba", 0x0EB9E4, 0x0000010
 
-gUnk_080EB9F4:: @ 080EB9F4
+gUnk_080EB9F4:: @ 080EB9F4 @ src/room.c
 	.incbin "baserom.gba", 0x0EB9F4, 0x00000B0
 
-gUnk_080EBAA4:: @ 080EBAA4
+gUnk_080EBAA4:: @ 080EBAA4 @ src/room.c
 	.incbin "baserom.gba", 0x0EBAA4, 0x0000050
 
-gUnk_080EBAF4:: @ 080EBAF4
+gUnk_080EBAF4:: @ 080EBAF4 @ src/room.c
 	.incbin "baserom.gba", 0x0EBAF4, 0x0000040
 
 gUnk_080EBB34:: @ 080EBB34
@@ -6376,7 +6376,7 @@ gUnk_080EC28C:: @ 080EC28C
 gUnk_080EC2AC:: @ 080EC2AC
 	.incbin "baserom.gba", 0x0EC2AC, 0x0000020
 
-gUnk_080EC2CC:: @ 080EC2CC
+gUnk_080EC2CC:: @ 080EC2CC @ src/room.c
 	.incbin "baserom.gba", 0x0EC2CC, 0x0000080
 
 gUnk_080EC34C:: @ 080EC34C
@@ -6406,7 +6406,7 @@ gUnk_080EC4A8:: @ 080EC4A8
 gUnk_080EC4C8:: @ 080EC4C8
 	.incbin "baserom.gba", 0x0EC4C8, 0x0000020
 
-gUnk_080EC4E8:: @ 080EC4E8
+gUnk_080EC4E8:: @ 080EC4E8 @ src/room.c
 	.incbin "baserom.gba", 0x0EC4E8, 0x0000080
 
 gUnk_080EC568:: @ 080EC568
@@ -6451,7 +6451,7 @@ gUnk_080EC7E0:: @ 080EC7E0
 gUnk_080EC800:: @ 080EC800
 	.incbin "baserom.gba", 0x0EC800, 0x0000020
 
-gUnk_080EC820:: @ 080EC820
+gUnk_080EC820:: @ 080EC820 @ src/room.c
 	.incbin "baserom.gba", 0x0EC820, 0x0000080
 
 gUnk_080EC8A0:: @ 080EC8A0
@@ -6484,7 +6484,7 @@ gUnk_080ECA1C:: @ 080ECA1C
 gUnk_080ECA40:: @ 080ECA40
 	.incbin "baserom.gba", 0x0ECA40, 0x0000020
 
-gUnk_080ECA60:: @ 080ECA60
+gUnk_080ECA60:: @ 080ECA60 @ src/room.c
 	.incbin "baserom.gba", 0x0ECA60, 0x0000080
 
 gUnk_080ECAE0:: @ 080ECAE0
@@ -6589,7 +6589,7 @@ gUnk_080ECFAC:: @ 080ECFAC
 gUnk_080ECFBC:: @ 080ECFBC
 	.incbin "baserom.gba", 0x0ECFBC, 0x0000010
 
-gUnk_080ECFCC:: @ 080ECFCC
+gUnk_080ECFCC:: @ 080ECFCC @ src/room.c
 	.incbin "baserom.gba", 0x0ECFCC, 0x0000040
 
 gUnk_080ED00C:: @ 080ED00C
@@ -6622,7 +6622,7 @@ gUnk_080ED174:: @ 080ED174
 gUnk_080ED194:: @ 080ED194
 	.incbin "baserom.gba", 0x0ED194, 0x0000050
 
-gUnk_080ED1E4:: @ 080ED1E4
+gUnk_080ED1E4:: @ 080ED1E4 @ src/room.c
 	.incbin "baserom.gba", 0x0ED1E4, 0x0000050
 
 gUnk_080ED234:: @ 080ED234
@@ -6934,7 +6934,7 @@ gUnk_080EE2D4:: @ 080EE2D4
 gUnk_080EE304:: @ 080EE304
 	.incbin "baserom.gba", 0x0EE304, 0x0000010
 
-gUnk_080EE314:: @ 080EE314
+gUnk_080EE314:: @ 080EE314 @ src/room.c
 	.incbin "baserom.gba", 0x0EE314, 0x0000029
 
 gUnk_080EE33D:: @ 080EE33D
@@ -6970,7 +6970,7 @@ gUnk_080EE4F4:: @ 080EE4F4
 gUnk_080EE5C4:: @ 080EE5C4
 	.incbin "baserom.gba", 0x0EE5C4, 0x0000018
 
-gUnk_080EE5DC:: @ 080EE5DC
+gUnk_080EE5DC:: @ 080EE5DC @ src/room.c
 	.incbin "baserom.gba", 0x0EE5DC, 0x0000040
 
 gUnk_080EE61C:: @ 080EE61C
@@ -6991,7 +6991,7 @@ gUnk_080EE66C:: @ 080EE66C
 gUnk_080EE68C:: @ 080EE68C
 	.incbin "baserom.gba", 0x0EE68C, 0x0000090
 
-gUnk_080EE71C:: @ 080EE71C
+gUnk_080EE71C:: @ 080EE71C @ src/room.c
 	.incbin "baserom.gba", 0x0EE71C, 0x0000040
 
 gUnk_080EE75C:: @ 080EE75C
@@ -7018,67 +7018,67 @@ gUnk_080EE7EC:: @ 080EE7EC
 gUnk_080EE80C:: @ 080EE80C
 	.incbin "baserom.gba", 0x0EE80C, 0x0000080
 
-gUnk_080EE88C:: @ 080EE88C
+gUnk_080EE88C:: @ 080EE88C @ src/room.c
 	.incbin "baserom.gba", 0x0EE88C, 0x0000070
 
-gUnk_080EE8FC:: @ 080EE8FC
+gUnk_080EE8FC:: @ 080EE8FC @ src/room.c
 	.incbin "baserom.gba", 0x0EE8FC, 0x0000020
 
-gUnk_080EE91C:: @ 080EE91C
+gUnk_080EE91C:: @ 080EE91C @ src/room.c
 	.incbin "baserom.gba", 0x0EE91C, 0x0000020
 
-gUnk_080EE93C:: @ 080EE93C
+gUnk_080EE93C:: @ 080EE93C @ src/room.c
 	.incbin "baserom.gba", 0x0EE93C, 0x0000020
 
-gUnk_080EE95C:: @ 080EE95C
+gUnk_080EE95C:: @ 080EE95C @ src/room.c
 	.incbin "baserom.gba", 0x0EE95C, 0x0000020
 
-gUnk_080EE97C:: @ 080EE97C
+gUnk_080EE97C:: @ 080EE97C @ src/room.c
 	.incbin "baserom.gba", 0x0EE97C, 0x0000020
 
-gUnk_080EE99C:: @ 080EE99C
+gUnk_080EE99C:: @ 080EE99C @ src/room.c
 	.incbin "baserom.gba", 0x0EE99C, 0x0000020
 
-gUnk_080EE9BC:: @ 080EE9BC
+gUnk_080EE9BC:: @ 080EE9BC @ src/room.c
 	.incbin "baserom.gba", 0x0EE9BC, 0x0000020
 
-gUnk_080EE9DC:: @ 080EE9DC
+gUnk_080EE9DC:: @ 080EE9DC @ src/room.c
 	.incbin "baserom.gba", 0x0EE9DC, 0x0000010
 
 gUnk_080EE9EC:: @ 080EE9EC
 	.incbin "baserom.gba", 0x0EE9EC, 0x0000010
 
-gUnk_080EE9FC:: @ 080EE9FC
+gUnk_080EE9FC:: @ 080EE9FC @ src/room.c
 	.incbin "baserom.gba", 0x0EE9FC, 0x0000020
 
-gUnk_080EEA1C:: @ 080EEA1C
+gUnk_080EEA1C:: @ 080EEA1C @ src/room.c
 	.incbin "baserom.gba", 0x0EEA1C, 0x0000020
 
-gUnk_080EEA3C:: @ 080EEA3C
+gUnk_080EEA3C:: @ 080EEA3C @ src/room.c
 	.incbin "baserom.gba", 0x0EEA3C, 0x0000020
 
-gUnk_080EEA5C:: @ 080EEA5C
+gUnk_080EEA5C:: @ 080EEA5C @ src/room.c
 	.incbin "baserom.gba", 0x0EEA5C, 0x0000020
 
-gUnk_080EEA7C:: @ 080EEA7C
+gUnk_080EEA7C:: @ 080EEA7C @ src/room.c
 	.incbin "baserom.gba", 0x0EEA7C, 0x0000020
 
-gUnk_080EEA9C:: @ 080EEA9C
+gUnk_080EEA9C:: @ 080EEA9C @ src/room.c
 	.incbin "baserom.gba", 0x0EEA9C, 0x0000020
 
-gUnk_080EEABC:: @ 080EEABC
+gUnk_080EEABC:: @ 080EEABC @ src/room.c
 	.incbin "baserom.gba", 0x0EEABC, 0x0000020
 
 gUnk_080EEADC:: @ 080EEADC
 	.incbin "baserom.gba", 0x0EEADC, 0x0000090
 
-gUnk_080EEB6C:: @ 080EEB6C
+gUnk_080EEB6C:: @ 080EEB6C @ src/room.c
 	.incbin "baserom.gba", 0x0EEB6C, 0x0000020
 
-gUnk_080EEB8C:: @ 080EEB8C
+gUnk_080EEB8C:: @ 080EEB8C @ src/room.c
 	.incbin "baserom.gba", 0x0EEB8C, 0x0000020
 
-gUnk_080EEBAC:: @ 080EEBAC
+gUnk_080EEBAC:: @ 080EEBAC @ src/room.c
 	.incbin "baserom.gba", 0x0EEBAC, 0x0000020
 
 gUnk_080EEBCC:: @ 080EEBCC
@@ -7087,19 +7087,19 @@ gUnk_080EEBCC:: @ 080EEBCC
 gUnk_080EEC4C:: @ 080EEC4C
 	.incbin "baserom.gba", 0x0EEC4C, 0x0000070
 
-gUnk_080EECBC:: @ 080EECBC
+gUnk_080EECBC:: @ 080EECBC @ src/room.c
 	.incbin "baserom.gba", 0x0EECBC, 0x0000020
 
 gUnk_080EECDC:: @ 080EECDC
 	.incbin "baserom.gba", 0x0EECDC, 0x0000050
 
-gUnk_080EED2C:: @ 080EED2C
+gUnk_080EED2C:: @ 080EED2C @ asm/non_matching/sub_0804E150.inc
 	.incbin "baserom.gba", 0x0EED2C, 0x000004E
 
-gUnk_080EED7A:: @ 080EED7A
+gUnk_080EED7A:: @ 080EED7A @ asm/non_matching/sub_0804E150.inc
 	.incbin "baserom.gba", 0x0EED7A, 0x0000012
 
-gUnk_080EED8C:: @ 080EED8C
+gUnk_080EED8C:: @ 080EED8C @ asm/non_matching/sub_0804E150.inc
 	.incbin "baserom.gba", 0x0EED8C, 0x000000C
 
 gUnk_080EED98:: @ 080EED98
@@ -7591,7 +7591,7 @@ gUnk_080F0610:: @ 080F0610
 gUnk_080F0630:: @ 080F0630
 	.incbin "baserom.gba", 0x0F0630, 0x0000020
 
-gUnk_080F0650:: @ 080F0650
+gUnk_080F0650:: @ 080F0650 @ src/room.c
 	.incbin "baserom.gba", 0x0F0650, 0x0000090
 
 gUnk_080F06E0:: @ 080F06E0
@@ -7600,7 +7600,7 @@ gUnk_080F06E0:: @ 080F06E0
 gUnk_080F0705:: @ 080F0705
 	.incbin "baserom.gba", 0x0F0705, 0x00000FB
 
-gUnk_080F0800:: @ 080F0800
+gUnk_080F0800:: @ 080F0800 @ src/room.c
 	.incbin "baserom.gba", 0x0F0800, 0x0000006
 
 gUnk_080F0806:: @ 080F0806
@@ -7609,25 +7609,25 @@ gUnk_080F0806:: @ 080F0806
 gUnk_080F0816:: @ 080F0816
 	.incbin "baserom.gba", 0x0F0816, 0x000003A
 
-gUnk_080F0850:: @ 080F0850
+gUnk_080F0850:: @ 080F0850 @ src/room.c
 	.incbin "baserom.gba", 0x0F0850, 0x0000020
 
-gUnk_080F0870:: @ 080F0870
+gUnk_080F0870:: @ 080F0870 @ src/room.c
 	.incbin "baserom.gba", 0x0F0870, 0x0000020
 
-gUnk_080F0890:: @ 080F0890
+gUnk_080F0890:: @ 080F0890 @ src/room.c
 	.incbin "baserom.gba", 0x0F0890, 0x0000060
 
-gUnk_080F08F0:: @ 080F08F0
+gUnk_080F08F0:: @ 080F08F0 @ src/room.c
 	.incbin "baserom.gba", 0x0F08F0, 0x0000030
 
-gUnk_080F0920:: @ 080F0920
+gUnk_080F0920:: @ 080F0920 @ src/room.c
 	.incbin "baserom.gba", 0x0F0920, 0x0000020
 
 gUnk_080F0940:: @ 080F0940
 	.incbin "baserom.gba", 0x0F0940, 0x0000060
 
-gUnk_080F09A0:: @ 080F09A0
+gUnk_080F09A0:: @ 080F09A0 @ src/room.c
 	.incbin "baserom.gba", 0x0F09A0, 0x0000060
 
 gUnk_080F0A00:: @ 080F0A00
@@ -7732,7 +7732,7 @@ gUnk_080F0C48:: @ 080F0C48
 gUnk_080F0C78:: @ 080F0C78
 	.incbin "baserom.gba", 0x0F0C78, 0x0000040
 
-gUnk_080F0CB8:: @ 080F0CB8
+gUnk_080F0CB8:: @ 080F0CB8 @ src/room.c
 	.incbin "baserom.gba", 0x0F0CB8, 0x0000020
 
 gUnk_080F0CD8:: @ 080F0CD8
@@ -7765,7 +7765,7 @@ gUnk_080F0D18:: @ 080F0D18
 gUnk_080F0D38:: @ 080F0D38
 	.incbin "baserom.gba", 0x0F0D38, 0x0000020
 
-gUnk_080F0D58:: @ 080F0D58
+gUnk_080F0D58:: @ 080F0D58 @ src/room.c
 	.incbin "baserom.gba", 0x0F0D58, 0x0000010
 
 gUnk_080F0D68:: @ 080F0D68
@@ -7789,7 +7789,7 @@ gUnk_080F0E02:: @ 080F0E02
 gUnk_080F0E04:: @ 080F0E04
 	.incbin "baserom.gba", 0x0F0E04, 0x0000004
 
-gUnk_080F0E08:: @ 080F0E08
+gUnk_080F0E08:: @ 080F0E08 @ src/room.c
 	.incbin "baserom.gba", 0x0F0E08, 0x000000A
 
 gUnk_080F0E12:: @ 080F0E12
@@ -7801,7 +7801,7 @@ gUnk_080F0E13:: @ 080F0E13
 gUnk_080F0E16:: @ 080F0E16
 	.incbin "baserom.gba", 0x0F0E16, 0x0000006
 
-gUnk_080F0E1C:: @ 080F0E1C
+gUnk_080F0E1C:: @ 080F0E1C @ src/room.c
 	.incbin "baserom.gba", 0x0F0E1C, 0x0000080
 
 gUnk_080F0E9C:: @ 080F0E9C
@@ -8101,10 +8101,10 @@ gUnk_080F1C16:: @ 080F1C16
 gUnk_080F1C48:: @ 080F1C48
 	.incbin "baserom.gba", 0x0F1C48, 0x0000020
 
-gUnk_080F1C68:: @ 080F1C68
+gUnk_080F1C68:: @ 080F1C68 @ src/room.c
 	.incbin "baserom.gba", 0x0F1C68, 0x0000020
 
-gUnk_080F1C88:: @ 080F1C88
+gUnk_080F1C88:: @ 080F1C88 @ src/room.c
 	.incbin "baserom.gba", 0x0F1C88, 0x0000020
 
 gUnk_080F1CA8:: @ 080F1CA8
@@ -8131,13 +8131,13 @@ gUnk_080F1D48:: @ 080F1D48
 gUnk_080F1D70:: @ 080F1D70
 	.incbin "baserom.gba", 0x0F1D70, 0x0000020
 
-gUnk_080F1D90:: @ 080F1D90
+gUnk_080F1D90:: @ 080F1D90 @ src/room.c
 	.incbin "baserom.gba", 0x0F1D90, 0x0000020
 
-gUnk_080F1DB0:: @ 080F1DB0
+gUnk_080F1DB0:: @ 080F1DB0 @ src/room.c
 	.incbin "baserom.gba", 0x0F1DB0, 0x0000020
 
-gUnk_080F1DD0:: @ 080F1DD0
+gUnk_080F1DD0:: @ 080F1DD0 @ src/room.c
 	.incbin "baserom.gba", 0x0F1DD0, 0x0000020
 
 gUnk_080F1DF0:: @ 080F1DF0
@@ -8227,13 +8227,13 @@ gUnk_080F2125:: @ 080F2125
 gUnk_080F2134:: @ 080F2134
 	.incbin "baserom.gba", 0x0F2134, 0x0000040
 
-gUnk_080F2174:: @ 080F2174
+gUnk_080F2174:: @ 080F2174 @ src/room.c
 	.incbin "baserom.gba", 0x0F2174, 0x0000020
 
-gUnk_080F2194:: @ 080F2194
+gUnk_080F2194:: @ 080F2194 @ src/room.c
 	.incbin "baserom.gba", 0x0F2194, 0x0000020
 
-gUnk_080F21B4:: @ 080F21B4
+gUnk_080F21B4:: @ 080F21B4 @ src/room.c
 	.incbin "baserom.gba", 0x0F21B4, 0x000000B
 
 gUnk_080F21BF:: @ 080F21BF
@@ -8281,13 +8281,13 @@ gUnk_080F232C:: @ 080F232C
 gUnk_080F233C:: @ 080F233C
 	.incbin "baserom.gba", 0x0F233C, 0x0000030
 
-gUnk_080F236C:: @ 080F236C
+gUnk_080F236C:: @ 080F236C @ src/room.c
 	.incbin "baserom.gba", 0x0F236C, 0x0000020
 
-gUnk_080F238C:: @ 080F238C
+gUnk_080F238C:: @ 080F238C @ src/room.c
 	.incbin "baserom.gba", 0x0F238C, 0x0000030
 
-gUnk_080F23BC:: @ 080F23BC
+gUnk_080F23BC:: @ 080F23BC @ src/room.c
 	.incbin "baserom.gba", 0x0F23BC, 0x0000020
 
 gUnk_080F23DC:: @ 080F23DC
@@ -8326,16 +8326,16 @@ gUnk_080F2528:: @ 080F2528
 gUnk_080F2531:: @ 080F2531
 	.incbin "baserom.gba", 0x0F2531, 0x000003F
 
-gUnk_080F2570:: @ 080F2570
+gUnk_080F2570:: @ 080F2570 @ src/room.c
 	.incbin "baserom.gba", 0x0F2570, 0x0000020
 
-gUnk_080F2590:: @ 080F2590
+gUnk_080F2590:: @ 080F2590 @ src/room.c
 	.incbin "baserom.gba", 0x0F2590, 0x0000030
 
-gUnk_080F25C0:: @ 080F25C0
+gUnk_080F25C0:: @ 080F25C0 @ src/room.c
 	.incbin "baserom.gba", 0x0F25C0, 0x0000040
 
-gUnk_080F2600:: @ 080F2600
+gUnk_080F2600:: @ 080F2600 @ src/room.c
 	.incbin "baserom.gba", 0x0F2600, 0x0000020
 
 gUnk_080F2620:: @ 080F2620
@@ -8362,19 +8362,19 @@ gUnk_080F26CC:: @ 080F26CC
 gUnk_080F26F8:: @ 080F26F8
 	.incbin "baserom.gba", 0x0F26F8, 0x0000020
 
-gUnk_080F2718:: @ 080F2718
+gUnk_080F2718:: @ 080F2718 @ src/room.c
 	.incbin "baserom.gba", 0x0F2718, 0x0000021
 
 gUnk_080F2739:: @ 080F2739
 	.incbin "baserom.gba", 0x0F2739, 0x000001F
 
-gUnk_080F2758:: @ 080F2758
+gUnk_080F2758:: @ 080F2758 @ src/room.c
 	.incbin "baserom.gba", 0x0F2758, 0x0000040
 
-gUnk_080F2798:: @ 080F2798
+gUnk_080F2798:: @ 080F2798 @ src/room.c
 	.incbin "baserom.gba", 0x0F2798, 0x0000040
 
-gUnk_080F27D8:: @ 080F27D8
+gUnk_080F27D8:: @ 080F27D8 @ src/room.c
 	.incbin "baserom.gba", 0x0F27D8, 0x0000040
 
 gUnk_080F2818:: @ 080F2818
@@ -8386,7 +8386,7 @@ gUnk_080F2848:: @ 080F2848
 gUnk_080F2858:: @ 080F2858
 	.incbin "baserom.gba", 0x0F2858, 0x0000008
 
-gUnk_080F2860:: @ 080F2860
+gUnk_080F2860:: @ 080F2860 @ src/room.c
 	.incbin "baserom.gba", 0x0F2860, 0x0000010
 
 gUnk_080F2870:: @ 080F2870
@@ -8398,13 +8398,13 @@ gUnk_080F2888:: @ 080F2888
 gUnk_080F28B4:: @ 080F28B4
 	.incbin "baserom.gba", 0x0F28B4, 0x0000020
 
-gUnk_080F28D4:: @ 080F28D4
+gUnk_080F28D4:: @ 080F28D4 @ src/room.c
 	.incbin "baserom.gba", 0x0F28D4, 0x0000020
 
-gUnk_080F28F4:: @ 080F28F4
+gUnk_080F28F4:: @ 080F28F4 @ src/room.c
 	.incbin "baserom.gba", 0x0F28F4, 0x0000020
 
-gUnk_080F2914:: @ 080F2914
+gUnk_080F2914:: @ 080F2914 @ src/room.c
 	.incbin "baserom.gba", 0x0F2914, 0x0000020
 
 gUnk_080F2934:: @ 080F2934
@@ -8491,7 +8491,7 @@ gUnk_080F2DAC:: @ 080F2DAC
 gUnk_080F2DCC:: @ 080F2DCC
 	.incbin "baserom.gba", 0x0F2DCC, 0x0000060
 
-gUnk_080F2E2C:: @ 080F2E2C
+gUnk_080F2E2C:: @ 080F2E2C @ src/room.c
 	.incbin "baserom.gba", 0x0F2E2C, 0x0000020
 
 gUnk_080F2E4C:: @ 080F2E4C
@@ -8506,10 +8506,10 @@ gUnk_080F2E64:: @ 080F2E64
 gUnk_080F2E84:: @ 080F2E84
 	.incbin "baserom.gba", 0x0F2E84, 0x0000010
 
-gUnk_080F2E94:: @ 080F2E94
+gUnk_080F2E94:: @ 080F2E94 @ src/room.c
 	.incbin "baserom.gba", 0x0F2E94, 0x0000030
 
-gUnk_080F2EC4:: @ 080F2EC4
+gUnk_080F2EC4:: @ 080F2EC4 @ src/room.c
 	.incbin "baserom.gba", 0x0F2EC4, 0x0000020
 
 gUnk_080F2EE4:: @ 080F2EE4
@@ -8527,7 +8527,7 @@ gUnk_080F2F94:: @ 080F2F94
 gUnk_080F2FB4:: @ 080F2FB4
 	.incbin "baserom.gba", 0x0F2FB4, 0x0000020
 
-gUnk_080F2FD4:: @ 080F2FD4
+gUnk_080F2FD4:: @ 080F2FD4 @ src/room.c
 	.incbin "baserom.gba", 0x0F2FD4, 0x0000020
 
 gUnk_080F2FF4:: @ 080F2FF4
@@ -8548,7 +8548,7 @@ gUnk_080F309C:: @ 080F309C
 gUnk_080F30B8:: @ 080F30B8
 	.incbin "baserom.gba", 0x0F30B8, 0x0000014
 
-gUnk_080F30CC:: @ 080F30CC
+gUnk_080F30CC:: @ 080F30CC @ src/room.c
 	.incbin "baserom.gba", 0x0F30CC, 0x0000020
 
 gUnk_080F30EC:: @ 080F30EC
@@ -8572,7 +8572,7 @@ gUnk_080F3174:: @ 080F3174
 gUnk_080F3198:: @ 080F3198
 	.incbin "baserom.gba", 0x0F3198, 0x0000040
 
-gUnk_080F31D8:: @ 080F31D8
+gUnk_080F31D8:: @ 080F31D8 @ src/room.c
 	.incbin "baserom.gba", 0x0F31D8, 0x0000020
 
 gUnk_080F31F8:: @ 080F31F8
@@ -8590,7 +8590,7 @@ gUnk_080F3230:: @ 080F3230
 gUnk_080F3250:: @ 080F3250
 	.incbin "baserom.gba", 0x0F3250, 0x0000010
 
-gUnk_080F3260:: @ 080F3260
+gUnk_080F3260:: @ 080F3260 @ src/room.c
 	.incbin "baserom.gba", 0x0F3260, 0x0000070
 
 gUnk_080F32D0:: @ 080F32D0
@@ -8620,7 +8620,7 @@ gUnk_080F33F4:: @ 080F33F4
 gUnk_080F3414:: @ 080F3414
 	.incbin "baserom.gba", 0x0F3414, 0x0000080
 
-gUnk_080F3494:: @ 080F3494
+gUnk_080F3494:: @ 080F3494 @ src/npc/bladeBrothers.c
 	.incbin "baserom.gba", 0x0F3494, 0x0000110
 
 gUnk_080F35A4:: @ 080F35A4
@@ -8635,7 +8635,7 @@ gUnk_080F35C4:: @ 080F35C4
 gUnk_080F35E4:: @ 080F35E4
 	.incbin "baserom.gba", 0x0F35E4, 0x0000020
 
-gUnk_080F3604:: @ 080F3604
+gUnk_080F3604:: @ 080F3604 @ src/room.c
 	.incbin "baserom.gba", 0x0F3604, 0x0000020
 
 gUnk_080F3624:: @ 080F3624
@@ -8647,7 +8647,7 @@ gUnk_080F36E4:: @ 080F36E4
 gUnk_080F36F4:: @ 080F36F4
 	.incbin "baserom.gba", 0x0F36F4, 0x0000008
 
-gUnk_080F36FC:: @ 080F36FC
+gUnk_080F36FC:: @ 080F36FC @ src/room.c
 	.incbin "baserom.gba", 0x0F36FC, 0x0000030
 
 gUnk_080F372C:: @ 080F372C
@@ -8662,7 +8662,7 @@ gUnk_080F3758:: @ 080F3758
 gUnk_080F3780:: @ 080F3780
 	.incbin "baserom.gba", 0x0F3780, 0x0000050
 
-gUnk_080F37D0:: @ 080F37D0
+gUnk_080F37D0:: @ 080F37D0 @ src/room.c
 	.incbin "baserom.gba", 0x0F37D0, 0x0000020
 
 gUnk_080F37F0:: @ 080F37F0
@@ -8707,7 +8707,7 @@ gUnk_080F39F4:: @ 080F39F4
 gUnk_080F3A18:: @ 080F3A18
 	.incbin "baserom.gba", 0x0F3A18, 0x0000030
 
-gUnk_080F3A48:: @ 080F3A48
+gUnk_080F3A48:: @ 080F3A48 @ src/room.c
 	.incbin "baserom.gba", 0x0F3A48, 0x0000020
 
 gUnk_080F3A68:: @ 080F3A68
@@ -8737,22 +8737,22 @@ gUnk_080F3BC4:: @ 080F3BC4
 gUnk_080F3BF4:: @ 080F3BF4
 	.incbin "baserom.gba", 0x0F3BF4, 0x0000050
 
-gUnk_080F3C44:: @ 080F3C44
+gUnk_080F3C44:: @ 080F3C44 @ src/room.c
 	.incbin "baserom.gba", 0x0F3C44, 0x0000020
 
-gUnk_080F3C64:: @ 080F3C64
+gUnk_080F3C64:: @ 080F3C64 @ src/room.c
 	.incbin "baserom.gba", 0x0F3C64, 0x0000030
 
-gUnk_080F3C94:: @ 080F3C94
+gUnk_080F3C94:: @ 080F3C94 @ src/room.c
 	.incbin "baserom.gba", 0x0F3C94, 0x0000020
 
 gUnk_080F3CB4:: @ 080F3CB4
 	.incbin "baserom.gba", 0x0F3CB4, 0x0000090
 
-gUnk_080F3D44:: @ 080F3D44
+gUnk_080F3D44:: @ 080F3D44 @ src/room.c
 	.incbin "baserom.gba", 0x0F3D44, 0x0000160
 
-gUnk_080F3EA4:: @ 080F3EA4
+gUnk_080F3EA4:: @ 080F3EA4 @ src/room.c
 	.incbin "baserom.gba", 0x0F3EA4, 0x0000140
 
 gUnk_080F3FE4:: @ 080F3FE4
@@ -8947,7 +8947,7 @@ gUnk_080F4B38:: @ 080F4B38
 gUnk_080F4B58:: @ 080F4B58
 	.incbin "baserom.gba", 0x0F4B58, 0x0000030
 
-gUnk_080F4B88:: @ 080F4B88
+gUnk_080F4B88:: @ 080F4B88 @ asm/managerF.s
 	.incbin "baserom.gba", 0x0F4B88, 0x0000020
 
 gUnk_080F4BA8:: @ 080F4BA8
@@ -8981,19 +8981,19 @@ gEntityList0_MinishWoods_0:: @ 080F4D00
 	object_item x=0x198, y=0x2B4, item=0x63, flag=0x3D, collision=1
 	entity_list_end
 
-gUnk_080F4D50:: @ 080F4D50
+gUnk_080F4D50:: @ 080F4D50 @ src/room.c
 	.incbin "baserom.gba", 0x0F4D50, 0x0000060
 
-gUnk_080F4DB0:: @ 080F4DB0
+gUnk_080F4DB0:: @ 080F4DB0 @ src/room.c
 	.incbin "baserom.gba", 0x0F4DB0, 0x0000020
 
-gUnk_080F4DD0:: @ 080F4DD0
+gUnk_080F4DD0:: @ 080F4DD0 @ src/room.c
 	.incbin "baserom.gba", 0x0F4DD0, 0x0000020
 
-gUnk_080F4DF0:: @ 080F4DF0
+gUnk_080F4DF0:: @ 080F4DF0 @ src/room.c
 	.incbin "baserom.gba", 0x0F4DF0, 0x0000020
 
-gUnk_080F4E10:: @ 080F4E10
+gUnk_080F4E10:: @ 080F4E10 @ src/room.c
 	.incbin "baserom.gba", 0x0F4E10, 0x0000020
 
 gEntityList1_MinishWoods_0:: @ 080F4E30
@@ -9006,10 +9006,10 @@ gEntityList1_MinishWoods_0:: @ 080F4E30
 	.byte 0x16, 0x0F, 0x19, 0x08, 0x02, 0x00, 0x00, 0x00, 0xC0, 0x02, 0x50, 0x00, 0x00, 0x00, 0x00, 0x00
 	.byte 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
 
-gUnk_080F4EB0:: @ 080F4EB0
+gUnk_080F4EB0:: @ 080F4EB0 @ src/room.c
 	.incbin "baserom.gba", 0x0F4EB0, 0x0000060
 
-gUnk_080F4F10:: @ 080F4F10
+gUnk_080F4F10:: @ 080F4F10 @ src/room.c
 	.incbin "baserom.gba", 0x0F4F10, 0x0000020
 
 gEntityList2_MinishWoods_0:: @ 080F4F30
@@ -9105,13 +9105,13 @@ gUnk_080F52D8:: @ 080F52D8
 gUnk_080F52F8:: @ 080F52F8
 	.incbin "baserom.gba", 0x0F52F8, 0x0000010
 
-gUnk_080F5308:: @ 080F5308
+gUnk_080F5308:: @ 080F5308 @ src/room.c
 	.incbin "baserom.gba", 0x0F5308, 0x0000020
 
-gUnk_080F5328:: @ 080F5328
+gUnk_080F5328:: @ 080F5328 @ src/room.c
 	.incbin "baserom.gba", 0x0F5328, 0x0000020
 
-gUnk_080F5348:: @ 080F5348
+gUnk_080F5348:: @ 080F5348 @ src/room.c
 	.incbin "baserom.gba", 0x0F5348, 0x0000050
 
 gUnk_080F5398:: @ 080F5398
@@ -9141,28 +9141,28 @@ gUnk_080F5428:: @ 080F5428
 gUnk_080F5448:: @ 080F5448
 	.incbin "baserom.gba", 0x0F5448, 0x00000A0
 
-gUnk_080F54E8:: @ 080F54E8
+gUnk_080F54E8:: @ 080F54E8 @ src/room.c
 	.incbin "baserom.gba", 0x0F54E8, 0x0000020
 
-gUnk_080F5508:: @ 080F5508
+gUnk_080F5508:: @ 080F5508 @ src/room.c
 	.incbin "baserom.gba", 0x0F5508, 0x0000020
 
-gUnk_080F5528:: @ 080F5528
+gUnk_080F5528:: @ 080F5528 @ src/room.c
 	.incbin "baserom.gba", 0x0F5528, 0x0000030
 
-gUnk_080F5558:: @ 080F5558
+gUnk_080F5558:: @ 080F5558 @ src/room.c
 	.incbin "baserom.gba", 0x0F5558, 0x0000020
 
-gUnk_080F5578:: @ 080F5578
+gUnk_080F5578:: @ 080F5578 @ src/room.c
 	.incbin "baserom.gba", 0x0F5578, 0x0000020
 
-gUnk_080F5598:: @ 080F5598
+gUnk_080F5598:: @ 080F5598 @ src/room.c
 	.incbin "baserom.gba", 0x0F5598, 0x0000020
 
-gUnk_080F55B8:: @ 080F55B8
+gUnk_080F55B8:: @ 080F55B8 @ src/room.c
 	.incbin "baserom.gba", 0x0F55B8, 0x0000020
 
-gUnk_080F55D8:: @ 080F55D8
+gUnk_080F55D8:: @ 080F55D8 @ src/room.c
 	.incbin "baserom.gba", 0x0F55D8, 0x0000020
 
 gUnk_080F55F8:: @ 080F55F8
@@ -9177,7 +9177,7 @@ gUnk_080F5610:: @ 080F5610
 gUnk_080F5630:: @ 080F5630
 	.incbin "baserom.gba", 0x0F5630, 0x0000030
 
-gUnk_080F5660:: @ 080F5660
+gUnk_080F5660:: @ 080F5660 @ src/room.c
 	.incbin "baserom.gba", 0x0F5660, 0x0000050
 
 gUnk_080F56B0:: @ 080F56B0
@@ -9195,34 +9195,34 @@ gUnk_080F5718:: @ 080F5718
 gUnk_080F5738:: @ 080F5738
 	.incbin "baserom.gba", 0x0F5738, 0x0000020
 
-gUnk_080F5758:: @ 080F5758
+gUnk_080F5758:: @ 080F5758 @ src/room.c
 	.incbin "baserom.gba", 0x0F5758, 0x0000030
 
-gUnk_080F5788:: @ 080F5788
+gUnk_080F5788:: @ 080F5788 @ src/room.c
 	.incbin "baserom.gba", 0x0F5788, 0x0000020
 
-gUnk_080F57A8:: @ 080F57A8
+gUnk_080F57A8:: @ 080F57A8 @ src/room.c
 	.incbin "baserom.gba", 0x0F57A8, 0x0000020
 
-gUnk_080F57C8:: @ 080F57C8
+gUnk_080F57C8:: @ 080F57C8 @ src/room.c
 	.incbin "baserom.gba", 0x0F57C8, 0x0000020
 
-gUnk_080F57E8:: @ 080F57E8
+gUnk_080F57E8:: @ 080F57E8 @ src/room.c
 	.incbin "baserom.gba", 0x0F57E8, 0x0000040
 
-gUnk_080F5828:: @ 080F5828
+gUnk_080F5828:: @ 080F5828 @ src/room.c
 	.incbin "baserom.gba", 0x0F5828, 0x0000020
 
-gUnk_080F5848:: @ 080F5848
+gUnk_080F5848:: @ 080F5848 @ src/room.c
 	.incbin "baserom.gba", 0x0F5848, 0x0000020
 
-gUnk_080F5868:: @ 080F5868
+gUnk_080F5868:: @ 080F5868 @ src/room.c
 	.incbin "baserom.gba", 0x0F5868, 0x0000020
 
-gUnk_080F5888:: @ 080F5888
+gUnk_080F5888:: @ 080F5888 @ src/room.c
 	.incbin "baserom.gba", 0x0F5888, 0x0000020
 
-gUnk_080F58A8:: @ 080F58A8
+gUnk_080F58A8:: @ 080F58A8 @ src/room.c
 	.incbin "baserom.gba", 0x0F58A8, 0x0000020
 
 gUnk_080F58C8:: @ 080F58C8
@@ -9270,7 +9270,7 @@ gUnk_080F5ADC:: @ 080F5ADC
 gUnk_080F5B0C:: @ 080F5B0C
 	.incbin "baserom.gba", 0x0F5B0C, 0x0000030
 
-gUnk_080F5B3C:: @ 080F5B3C
+gUnk_080F5B3C:: @ 080F5B3C @ src/room.c
 	.incbin "baserom.gba", 0x0F5B3C, 0x0000020
 
 gUnk_080F5B5C:: @ 080F5B5C
@@ -9318,7 +9318,7 @@ gUnk_080F5D84:: @ 080F5D84
 gUnk_080F5DB0:: @ 080F5DB0
 	.incbin "baserom.gba", 0x0F5DB0, 0x0000020
 
-gUnk_080F5DD0:: @ 080F5DD0
+gUnk_080F5DD0:: @ 080F5DD0 @ src/room.c
 	.incbin "baserom.gba", 0x0F5DD0, 0x0000020
 
 gUnk_080F5DF0:: @ 080F5DF0
@@ -9336,7 +9336,7 @@ gUnk_080F5E28:: @ 080F5E28
 gUnk_080F5E48:: @ 080F5E48
 	.incbin "baserom.gba", 0x0F5E48, 0x0000020
 
-gUnk_080F5E68:: @ 080F5E68
+gUnk_080F5E68:: @ 080F5E68 @ src/room.c
 	.incbin "baserom.gba", 0x0F5E68, 0x0000020
 
 gUnk_080F5E88:: @ 080F5E88
@@ -9354,13 +9354,13 @@ gUnk_080F5EF8:: @ 080F5EF8
 gUnk_080F5F18:: @ 080F5F18
 	.incbin "baserom.gba", 0x0F5F18, 0x0000020
 
-gUnk_080F5F38:: @ 080F5F38
+gUnk_080F5F38:: @ 080F5F38 @ src/room.c
 	.incbin "baserom.gba", 0x0F5F38, 0x0000020
 
-gUnk_080F5F58:: @ 080F5F58
+gUnk_080F5F58:: @ 080F5F58 @ src/room.c
 	.incbin "baserom.gba", 0x0F5F58, 0x0000020
 
-gUnk_080F5F78:: @ 080F5F78
+gUnk_080F5F78:: @ 080F5F78 @ src/room.c
 	.incbin "baserom.gba", 0x0F5F78, 0x0000020
 
 gUnk_080F5F98:: @ 080F5F98
@@ -9408,7 +9408,7 @@ gUnk_080F615C:: @ 080F615C
 gUnk_080F617C:: @ 080F617C
 	.incbin "baserom.gba", 0x0F617C, 0x0000040
 
-gUnk_080F61BC:: @ 080F61BC
+gUnk_080F61BC:: @ 080F61BC @ src/room.c
 	.incbin "baserom.gba", 0x0F61BC, 0x0000020
 
 gUnk_080F61DC:: @ 080F61DC
@@ -9426,10 +9426,10 @@ gUnk_080F6284:: @ 080F6284
 gUnk_080F62A4:: @ 080F62A4
 	.incbin "baserom.gba", 0x0F62A4, 0x0000040
 
-gUnk_080F62E4:: @ 080F62E4
+gUnk_080F62E4:: @ 080F62E4 @ src/room.c
 	.incbin "baserom.gba", 0x0F62E4, 0x0000040
 
-gUnk_080F6324:: @ 080F6324
+gUnk_080F6324:: @ 080F6324 @ src/room.c
 	.incbin "baserom.gba", 0x0F6324, 0x0000020
 
 gUnk_080F6344:: @ 080F6344
@@ -9462,10 +9462,10 @@ gUnk_080F64E4:: @ 080F64E4
 gUnk_080F6504:: @ 080F6504
 	.incbin "baserom.gba", 0x0F6504, 0x0000060
 
-gUnk_080F6564:: @ 080F6564
+gUnk_080F6564:: @ 080F6564 @ src/room.c
 	.incbin "baserom.gba", 0x0F6564, 0x0000020
 
-gUnk_080F6584:: @ 080F6584
+gUnk_080F6584:: @ 080F6584 @ src/room.c
 	.incbin "baserom.gba", 0x0F6584, 0x0000020
 
 gUnk_080F65A4:: @ 080F65A4
@@ -9483,7 +9483,7 @@ gUnk_080F662C:: @ 080F662C
 gUnk_080F664C:: @ 080F664C
 	.incbin "baserom.gba", 0x0F664C, 0x0000060
 
-gUnk_080F66AC:: @ 080F66AC
+gUnk_080F66AC:: @ 080F66AC @ src/room.c
 	.incbin "baserom.gba", 0x0F66AC, 0x0000020
 
 gUnk_080F66CC:: @ 080F66CC
@@ -9672,13 +9672,13 @@ gUnk_080F6FF0:: @ 080F6FF0
 gUnk_080F7018:: @ 080F7018
 	.incbin "baserom.gba", 0x0F7018, 0x0000070
 
-gUnk_080F7088:: @ 080F7088
+gUnk_080F7088:: @ 080F7088 @ src/room.c
 	.incbin "baserom.gba", 0x0F7088, 0x0000020
 
-gUnk_080F70A8:: @ 080F70A8
+gUnk_080F70A8:: @ 080F70A8 @ src/room.c
 	.incbin "baserom.gba", 0x0F70A8, 0x0000030
 
-gUnk_080F70D8:: @ 080F70D8
+gUnk_080F70D8:: @ 080F70D8 @ src/room.c
 	.incbin "baserom.gba", 0x0F70D8, 0x0000020
 
 gUnk_080F70F8:: @ 080F70F8
@@ -9738,13 +9738,13 @@ gUnk_080F74C8:: @ 080F74C8
 gUnk_080F74F0:: @ 080F74F0
 	.incbin "baserom.gba", 0x0F74F0, 0x0000010
 
-gUnk_080F7500:: @ 080F7500
+gUnk_080F7500:: @ 080F7500 @ src/room.c
 	.incbin "baserom.gba", 0x0F7500, 0x0000020
 
 gUnk_080F7520:: @ 080F7520
 	.incbin "baserom.gba", 0x0F7520, 0x0000030
 
-gUnk_080F7550:: @ 080F7550
+gUnk_080F7550:: @ 080F7550 @ src/room.c
 	.incbin "baserom.gba", 0x0F7550, 0x0000020
 
 gUnk_080F7570:: @ 080F7570
@@ -9756,7 +9756,7 @@ gUnk_080F75D0:: @ 080F75D0
 gUnk_080F7610:: @ 080F7610
 	.incbin "baserom.gba", 0x0F7610, 0x0000070
 
-gUnk_080F7680:: @ 080F7680
+gUnk_080F7680:: @ 080F7680 @ src/room.c
 	.incbin "baserom.gba", 0x0F7680, 0x0000040
 
 gUnk_080F76C0:: @ 080F76C0
@@ -9771,25 +9771,25 @@ gUnk_080F7720:: @ 080F7720
 gUnk_080F7770:: @ 080F7770
 	.incbin "baserom.gba", 0x0F7770, 0x0000050
 
-gUnk_080F77C0:: @ 080F77C0
+gUnk_080F77C0:: @ 080F77C0 @ src/room.c
 	.incbin "baserom.gba", 0x0F77C0, 0x0000030
 
-gUnk_080F77F0:: @ 080F77F0
+gUnk_080F77F0:: @ 080F77F0 @ src/room.c
 	.incbin "baserom.gba", 0x0F77F0, 0x0000020
 
-gUnk_080F7810:: @ 080F7810
+gUnk_080F7810:: @ 080F7810 @ src/room.c
 	.incbin "baserom.gba", 0x0F7810, 0x0000020
 
 gUnk_080F7830:: @ 080F7830
 	.incbin "baserom.gba", 0x0F7830, 0x0000030
 
-gUnk_080F7860:: @ 080F7860
+gUnk_080F7860:: @ 080F7860 @ src/room.c
 	.incbin "baserom.gba", 0x0F7860, 0x0000020
 
 gUnk_080F7880:: @ 080F7880
 	.incbin "baserom.gba", 0x0F7880, 0x0000020
 
-gUnk_080F78A0:: @ 080F78A0
+gUnk_080F78A0:: @ 080F78A0 @ src/room.c
 	.incbin "baserom.gba", 0x0F78A0, 0x0000020
 
 gUnk_080F78C0:: @ 080F78C0
@@ -9834,19 +9834,19 @@ gUnk_080F7BF0:: @ 080F7BF0
 gUnk_080F7C00:: @ 080F7C00
 	.incbin "baserom.gba", 0x0F7C00, 0x0000080
 
-gUnk_080F7C80:: @ 080F7C80
+gUnk_080F7C80:: @ 080F7C80 @ src/room.c
 	.incbin "baserom.gba", 0x0F7C80, 0x0000050
 
-gUnk_080F7CD0:: @ 080F7CD0
+gUnk_080F7CD0:: @ 080F7CD0 @ src/room.c
 	.incbin "baserom.gba", 0x0F7CD0, 0x0000020
 
 gUnk_080F7CF0:: @ 080F7CF0
 	.incbin "baserom.gba", 0x0F7CF0, 0x0000080
 
-gUnk_080F7D70:: @ 080F7D70
+gUnk_080F7D70:: @ 080F7D70 @ src/room.c
 	.incbin "baserom.gba", 0x0F7D70, 0x0000050
 
-gUnk_080F7DC0:: @ 080F7DC0
+gUnk_080F7DC0:: @ 080F7DC0 @ src/room.c
 	.incbin "baserom.gba", 0x0F7DC0, 0x0000020
 
 gUnk_080F7DE0:: @ 080F7DE0
@@ -9879,7 +9879,7 @@ gUnk_080F8020:: @ 080F8020
 gUnk_080F805C:: @ 080F805C
 	.incbin "baserom.gba", 0x0F805C, 0x0000010
 
-gUnk_080F806C:: @ 080F806C
+gUnk_080F806C:: @ 080F806C @ src/room.c
 	.incbin "baserom.gba", 0x0F806C, 0x0000020
 
 gUnk_080F808C:: @ 080F808C
@@ -9903,7 +9903,7 @@ gUnk_080F81E8:: @ 080F81E8
 gUnk_080F8210:: @ 080F8210
 	.incbin "baserom.gba", 0x0F8210, 0x00000D0
 
-gUnk_080F82E0:: @ 080F82E0
+gUnk_080F82E0:: @ 080F82E0 @ src/room.c
 	.incbin "baserom.gba", 0x0F82E0, 0x0000020
 
 gUnk_080F8300:: @ 080F8300
@@ -9921,7 +9921,7 @@ gUnk_080F8400:: @ 080F8400
 gUnk_080F8420:: @ 080F8420
 	.incbin "baserom.gba", 0x0F8420, 0x0000010
 
-gUnk_080F8430:: @ 080F8430
+gUnk_080F8430:: @ 080F8430 @ src/room.c
 	.incbin "baserom.gba", 0x0F8430, 0x0000020
 
 gUnk_080F8450:: @ 080F8450
@@ -9939,10 +9939,10 @@ gUnk_080F84C8:: @ 080F84C8
 gUnk_080F84E8:: @ 080F84E8
 	.incbin "baserom.gba", 0x0F84E8, 0x00000F0
 
-gUnk_080F85D8:: @ 080F85D8
+gUnk_080F85D8:: @ 080F85D8 @ src/room.c
 	.incbin "baserom.gba", 0x0F85D8, 0x0000020
 
-gUnk_080F85F8:: @ 080F85F8
+gUnk_080F85F8:: @ 080F85F8 @ src/room.c
 	.incbin "baserom.gba", 0x0F85F8, 0x0000030
 
 gUnk_080F8628:: @ 080F8628
@@ -10236,7 +10236,7 @@ gUnk_080F9244:: @ 080F9244
 gUnk_080F9264:: @ 080F9264
 	.incbin "baserom.gba", 0x0F9264, 0x00000A0
 
-gUnk_080F9304:: @ 080F9304
+gUnk_080F9304:: @ 080F9304 @ src/room.c
 	.incbin "baserom.gba", 0x0F9304, 0x0000020
 
 gUnk_080F9324:: @ 080F9324
@@ -10380,7 +10380,7 @@ gUnk_080F9B58:: @ 080F9B58
 gUnk_080F9B78:: @ 080F9B78
 	.incbin "baserom.gba", 0x0F9B78, 0x0000080
 
-gUnk_080F9BF8:: @ 080F9BF8
+gUnk_080F9BF8:: @ 080F9BF8 @ src/room.c
 	.incbin "baserom.gba", 0x0F9BF8, 0x0000040
 
 gUnk_080F9C38:: @ 080F9C38
@@ -10467,10 +10467,10 @@ gUnk_080F9F28:: @ 080F9F28
 gUnk_080F9F58:: @ 080F9F58
 	.incbin "baserom.gba", 0x0F9F58, 0x0000030
 
-gUnk_080F9F88:: @ 080F9F88
+gUnk_080F9F88:: @ 080F9F88 @ src/room.c
 	.incbin "baserom.gba", 0x0F9F88, 0x0000020
 
-gUnk_080F9FA8:: @ 080F9FA8
+gUnk_080F9FA8:: @ 080F9FA8 @ src/room.c
 	.incbin "baserom.gba", 0x0F9FA8, 0x0000030
 
 gUnk_080F9FD8:: @ 080F9FD8
@@ -10632,7 +10632,7 @@ gUnk_080FA590:: @ 080FA590
 gUnk_080FA5B0:: @ 080FA5B0
 	.incbin "baserom.gba", 0x0FA5B0, 0x0000020
 
-gUnk_080FA5D0:: @ 080FA5D0
+gUnk_080FA5D0:: @ 080FA5D0 @ src/room.c
 	.incbin "baserom.gba", 0x0FA5D0, 0x0000020
 
 gUnk_080FA5F0:: @ 080FA5F0
@@ -10833,10 +10833,10 @@ gUnk_080FAC28:: @ 080FAC28
 gUnk_080FAC88:: @ 080FAC88
 	.incbin "baserom.gba", 0x0FAC88, 0x0000030
 
-gUnk_080FACB8:: @ 080FACB8
+gUnk_080FACB8:: @ 080FACB8 @ src/room.c
 	.incbin "baserom.gba", 0x0FACB8, 0x0000090
 
-gUnk_080FAD48:: @ 080FAD48
+gUnk_080FAD48:: @ 080FAD48 @ src/room.c
 	.incbin "baserom.gba", 0x0FAD48, 0x0000060
 
 gUnk_080FADA8:: @ 080FADA8
@@ -10875,10 +10875,10 @@ gUnk_080FAFB4:: @ 080FAFB4
 gUnk_080FAFD4:: @ 080FAFD4
 	.incbin "baserom.gba", 0x0FAFD4, 0x0000010
 
-gUnk_080FAFE4:: @ 080FAFE4
+gUnk_080FAFE4:: @ 080FAFE4 @ src/room.c
 	.incbin "baserom.gba", 0x0FAFE4, 0x0000020
 
-gUnk_080FB004:: @ 080FB004
+gUnk_080FB004:: @ 080FB004 @ src/room.c
 	.incbin "baserom.gba", 0x0FB004, 0x0000020
 
 gUnk_080FB024:: @ 080FB024
@@ -11199,14 +11199,14 @@ gUnk_080FC39C:: @ 080FC39C
 gUnk_080FC3A4:: @ 080FC3A4
 	.incbin "baserom.gba", 0x0FC3A4, 0x0000020
 
-gUnk_080FC3C4:: @ 080FC3C4
+gUnk_080FC3C4:: @ 080FC3C4 @ asm/code_08050038.s
 	.incbin "baserom.gba", 0x0FC3C4, 0x0000020
 
-gUnk_080FC3E4:: @ 080FC3E4
+gUnk_080FC3E4:: @ 080FC3E4 @ asm/code_080A3BD0.s, asm/figurineDevice.s
 	.incbin "baserom.gba", 0x0FC3E4, 0x0000460
 
-gUnk_080FC844:: @ 080FC844
+gUnk_080FC844:: @ 080FC844 @ src/fileScreen.c
 	.incbin "baserom.gba", 0x0FC844, 0x0000018
 
-gUnk_080FC85C:: @ 080FC85C
+gUnk_080FC85C:: @ 080FC85C @ src/fileScreen.c
 	.incbin "baserom.gba", 0x0FC85C, 0x0000048

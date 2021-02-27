@@ -4,43 +4,43 @@
 	.section .rodata
 	.align 2
 
-gUnk_08108308:: @ 08108308
+gUnk_08108308:: @ 08108308 @ asm/managerD.s
 	.incbin "baserom.gba", 0x108308, 0x000000C
 
-gUnk_08108314:: @ 08108314
+gUnk_08108314:: @ 08108314 @ asm/managerF.s
 	.incbin "baserom.gba", 0x108314, 0x0000040
 
-gUnk_08108354:: @ 08108354
+gUnk_08108354:: @ 08108354 @ asm/managerF.s
 	.incbin "baserom.gba", 0x108354, 0x000002C
 
-gUnk_08108380:: @ 08108380
+gUnk_08108380:: @ 08108380 @ asm/managerF.s
 	.incbin "baserom.gba", 0x108380, 0x0000010
 
-gUnk_08108390:: @ 08108390
+gUnk_08108390:: @ 08108390 @ asm/manager10.s
 	.incbin "baserom.gba", 0x108390, 0x0000008
 
-gUnk_08108398:: @ 08108398
+gUnk_08108398:: @ 08108398 @ asm/manager12.s
 	.incbin "baserom.gba", 0x108398, 0x0000016
 
-gUnk_081083AE:: @ 081083AE
+gUnk_081083AE:: @ 081083AE @ asm/manager12.s
 	.incbin "baserom.gba", 0x1083AE, 0x0000016
 
-gUnk_081083C4:: @ 081083C4
+gUnk_081083C4:: @ 081083C4 @ asm/manager12.s
 	.incbin "baserom.gba", 0x1083C4, 0x0000016
 
-gUnk_081083DA:: @ 081083DA
+gUnk_081083DA:: @ 081083DA @ asm/manager12.s
 	.incbin "baserom.gba", 0x1083DA, 0x0000018
 
-gUnk_081083F2:: @ 081083F2
+gUnk_081083F2:: @ 081083F2 @ asm/manager12.s
 	.incbin "baserom.gba", 0x1083F2, 0x0000016
 
-gUnk_08108408:: @ 08108408
+gUnk_08108408:: @ 08108408 @ asm/manager12.s
 	.incbin "baserom.gba", 0x108408, 0x000003C
 
 gUnk_08108444:: @ 08108444
 	.incbin "baserom.gba", 0x108444, 0x0000024
 
-gUnk_08108468:: @ 08108468
+gUnk_08108468:: @ 08108468 @ asm/manager12.s
 	.incbin "baserom.gba", 0x108468, 0x0000026
 
 gUnk_0810848E:: @ 0810848E
@@ -49,52 +49,52 @@ gUnk_0810848E:: @ 0810848E
 gUnk_081084C3:: @ 081084C3
 	.incbin "baserom.gba", 0x1084C3, 0x0000005
 
-gUnk_081084C8:: @ 081084C8
+gUnk_081084C8:: @ 081084C8 @ asm/manager13.s
 	.incbin "baserom.gba", 0x1084C8, 0x000004A
 
 gUnk_08108512:: @ 08108512
 	.incbin "baserom.gba", 0x108512, 0x000001E
 
-gUnk_08108530:: @ 08108530
+gUnk_08108530:: @ 08108530 @ asm/manager13.s
 	.incbin "baserom.gba", 0x108530, 0x0000058
 
-gUnk_08108588:: @ 08108588
+gUnk_08108588:: @ 08108588 @ asm/manager14.s
 	.incbin "baserom.gba", 0x108588, 0x0000012
 
-gUnk_0810859A:: @ 0810859A
+gUnk_0810859A:: @ 0810859A @ asm/manager14.s
 	.incbin "baserom.gba", 0x10859A, 0x000000A
 
-gUnk_081085A4:: @ 081085A4
+gUnk_081085A4:: @ 081085A4 @ asm/manager14.s
 	.incbin "baserom.gba", 0x1085A4, 0x0000014
 
-gUnk_081085B8:: @ 081085B8
+gUnk_081085B8:: @ 081085B8 @ src/manager/manager15.c
 	.incbin "baserom.gba", 0x1085B8, 0x0000020
 
-gUnk_081085D8:: @ 081085D8
+gUnk_081085D8:: @ 081085D8 @ src/manager/manager15.c
 	.incbin "baserom.gba", 0x1085D8, 0x0000020
 
-gUnk_081085F8:: @ 081085F8
+gUnk_081085F8:: @ 081085F8 @ src/manager/manager15.c
 	.incbin "baserom.gba", 0x1085F8, 0x0000014
 
-gUnk_0810860C:: @ 0810860C
+gUnk_0810860C:: @ 0810860C @ src/manager/manager15.c
 	.incbin "baserom.gba", 0x10860C, 0x0000014
 
-gUnk_08108620:: @ 08108620
+gUnk_08108620:: @ 08108620 @ src/manager/manager15.c
 	.incbin "baserom.gba", 0x108620, 0x0000018
 
-gUnk_08108638:: @ 08108638
+gUnk_08108638:: @ 08108638 @ src/manager/manager15.c
 	.incbin "baserom.gba", 0x108638, 0x0000010
 
-gUnk_08108648:: @ 08108648
+gUnk_08108648:: @ 08108648 @ src/manager/manager15.c
 	.incbin "baserom.gba", 0x108648, 0x000000C
 
-gUnk_08108654:: @ 08108654
+gUnk_08108654:: @ 08108654 @ asm/manager17.s
 	.incbin "baserom.gba", 0x108654, 0x0000008
 
-gUnk_0810865C:: @ 0810865C
+gUnk_0810865C:: @ 0810865C @ asm/manager18.s
 	.incbin "baserom.gba", 0x10865C, 0x000000C
 
-gUnk_08108668:: @ 08108668
+gUnk_08108668:: @ 08108668 @ src/manager/manager1A.c
 	.incbin "baserom.gba", 0x108668, 0x0000008
 
 gUnk_08108670:: @ 08108670
@@ -190,7 +190,7 @@ gUnk_0810875C:: @ 0810875C
 gUnk_0810875E:: @ 0810875E
 	.incbin "baserom.gba", 0x10875E, 0x0000006
 
-gUnk_08108764:: @ 08108764
+gUnk_08108764:: @ 08108764 @ src/manager/manager1A.c
 	.incbin "baserom.gba", 0x108764, 0x00000AF
 
 gUnk_08108813:: @ 08108813
@@ -208,32 +208,32 @@ gUnk_08108A9B:: @ 08108A9B
 gUnk_08108C12:: @ 08108C12
 	.incbin "baserom.gba", 0x108C12, 0x0000016
 
-gUnk_08108C28:: @ 08108C28
+gUnk_08108C28:: @ 08108C28 @ asm/manager1B.s
 	.incbin "baserom.gba", 0x108C28, 0x000001C
 
-gUnk_08108C44:: @ 08108C44
+gUnk_08108C44:: @ 08108C44 @ asm/manager1B.s
 	.incbin "baserom.gba", 0x108C44, 0x0000010
 
-gUnk_08108C54:: @ 08108C54
+gUnk_08108C54:: @ 08108C54 @ asm/manager1B.s
 	.incbin "baserom.gba", 0x108C54, 0x0000008
 
-gUnk_08108C5C:: @ 08108C5C
+gUnk_08108C5C:: @ 08108C5C @ asm/manager1B.s
 	.incbin "baserom.gba", 0x108C5C, 0x0000008
 
-gUnk_08108C64:: @ 08108C64
+gUnk_08108C64:: @ 08108C64 @ asm/manager1C.s
 	.incbin "baserom.gba", 0x108C64, 0x0000008
 
-gUnk_08108C6C:: @ 08108C6C
+gUnk_08108C6C:: @ 08108C6C @ asm/manager1C.s
 	.incbin "baserom.gba", 0x108C6C, 0x000000B
 
 gUnk_08108C77:: @ 08108C77
 	.incbin "baserom.gba", 0x108C77, 0x0000005
 
-gUnk_08108C7C:: @ 08108C7C
+gUnk_08108C7C:: @ 08108C7C @ asm/manager1C.s
 	.incbin "baserom.gba", 0x108C7C, 0x0000004
 
-gUnk_08108C80:: @ 08108C80
+gUnk_08108C80:: @ 08108C80 @ asm/manager1D.s
 	.incbin "baserom.gba", 0x108C80, 0x0000008
 
-gUnk_08108C88:: @ 08108C88
+gUnk_08108C88:: @ 08108C88 @ asm/manager1D.s
 	.incbin "baserom.gba", 0x108C88, 0x0000004

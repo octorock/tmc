@@ -4,7 +4,7 @@
 	.section .rodata
 	.align 2
 
-gUnk_080CA5D4:: @ 080CA5D4
+gUnk_080CA5D4:: @ 080CA5D4 @ src/enemy/peahat.c
 	.incbin "baserom.gba", 0x0CA5D4, 0x0000002
 
 gUnk_080CA5D6:: @ 080CA5D6

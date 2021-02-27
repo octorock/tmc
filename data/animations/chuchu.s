@@ -4,7 +4,7 @@
 	.section .rodata
 	.align 2
 
-gUnk_080CA2B4:: @ 080CA2B4
+gUnk_080CA2B4:: @ 080CA2B4 @ src/enemy/chuchu.c
 	.incbin "baserom.gba", 0x0CA2B4, 0x000000A
 
 gUnk_080CA2BE:: @ 080CA2BE

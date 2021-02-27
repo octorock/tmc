@@ -4,10 +4,10 @@
 	.section .rodata
 	.align 2
 
-gUnk_080C93E0:: @ 080C93E0
+gUnk_080C93E0:: @ 080C93E0 @ asm/code_080043E8.s
 	.incbin "baserom.gba", 0x0C93E0, 0x0000080
 
-gUnk_080C9460:: @ 080C9460
+gUnk_080C9460:: @ 080C9460 @ asm/code_0801D79C.s
 	.incbin "baserom.gba", 0x0C9460, 0x0000020
 
 gUnk_080C9480:: @ 080C9480
@@ -103,20 +103,20 @@ gUnk_080C9C1C:: @ 080C9C1C
 gUnk_080C9C3C:: @ 080C9C3C
 	.incbin "baserom.gba", 0x0C9C3C, 0x0000014
 
-gUnk_080C9C50:: @ 080C9C50
+gUnk_080C9C50:: @ 080C9C50 @ asm/code_0801D79C.s
 	.incbin "baserom.gba", 0x0C9C50, 0x000001C
 
-gUnk_080C9C6C:: @ 080C9C6C
+gUnk_080C9C6C:: @ 080C9C6C @ asm/code_080A5574.s
 	.incbin "baserom.gba", 0x0C9C6C, 0x0000040
 
-gUnk_080C9CAC:: @ 080C9CAC
+gUnk_080C9CAC:: @ 080C9CAC @ asm/code_0801D79C.s
 	.incbin "baserom.gba", 0x0C9CAC, 0x0000010
 
-gUnk_080C9CBC:: @ 080C9CBC
+gUnk_080C9CBC:: @ 080C9CBC @ asm/code_08018500.s, asm/code_0801D79C.s, asm/code_0805436C.s, asm/code_0808091C.s, asm/code_080A3BD0.s, asm/code_080A5574.s, asm/object9.s, asm/objectB3.s
 	.incbin "baserom.gba", 0x0C9CBC, 0x00003B0
 
-gUnk_080CA06C:: @ 080CA06C
+gUnk_080CA06C:: @ 080CA06C @ asm/code_080A3BD0.s
 	.incbin "baserom.gba", 0x0CA06C, 0x00000B0
 
-gUnk_080CA11C:: @ 080CA11C
+gUnk_080CA11C:: @ 080CA11C @ asm/code_0801D79C.s
 	.incbin "baserom.gba", 0x0CA11C, 0x0000014

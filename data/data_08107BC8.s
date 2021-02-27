@@ -4,40 +4,40 @@
 	.section .rodata
 	.align 2
 
-gUnk_08107C0C:: @ 08107C0C
+gUnk_08107C0C:: @ 08107C0C @ asm/code_08056418.s
 	.incbin "baserom.gba", 0x107C0C, 0x0000003
 
-gUnk_08107C0F:: @ 08107C0F
+gUnk_08107C0F:: @ 08107C0F @ asm/code_08056418.s
 	.incbin "baserom.gba", 0x107C0F, 0x0000005
 
-gUnk_08107C14:: @ 08107C14
+gUnk_08107C14:: @ 08107C14 @ asm/code_08056418.s
 	.incbin "baserom.gba", 0x107C14, 0x0000004
 
 gUnk_08107C18:: @ 08107C18
 	.incbin "baserom.gba", 0x107C18, 0x0000004
 
-gUnk_08107C1C:: @ 08107C1C
+gUnk_08107C1C:: @ 08107C1C @ asm/manager1.s
 	.incbin "baserom.gba", 0x107C1C, 0x000000E
 
 gUnk_08107C2A:: @ 08107C2A
 	.incbin "baserom.gba", 0x107C2A, 0x0000006
 
-gUnk_08107C30:: @ 08107C30
+gUnk_08107C30:: @ 08107C30 @ asm/manager1.s
 	.incbin "baserom.gba", 0x107C30, 0x0000010
 
-gUnk_08107C40:: @ 08107C40
+gUnk_08107C40:: @ 08107C40 @ src/manager/manager1.c
 	.incbin "baserom.gba", 0x107C40, 0x0000008
 
-gUnk_08107C48:: @ 08107C48
+gUnk_08107C48:: @ 08107C48 @ src/manager/manager1.c
 	.incbin "baserom.gba", 0x107C48, 0x0000014
 
-gUnk_08107C5C:: @ 08107C5C
+gUnk_08107C5C:: @ 08107C5C @ src/manager/manager1.c
 	.incbin "baserom.gba", 0x107C5C, 0x0000010
 
-gUnk_08107C6C:: @ 08107C6C
+gUnk_08107C6C:: @ 08107C6C @ src/manager/manager3.c
 	.incbin "baserom.gba", 0x107C6C, 0x0000004
 
-gUnk_08107C70:: @ 08107C70
+gUnk_08107C70:: @ 08107C70 @ src/manager/manager4.c
 	.incbin "baserom.gba", 0x107C70, 0x0000008
 
 gUnk_08107C78:: @ 08107C78
@@ -88,5 +88,5 @@ gUnk_08107D90:: @ 08107D90
 gUnk_08107DA0:: @ 08107DA0
 	.incbin "baserom.gba", 0x107DA0, 0x0000020
 
-gUnk_08107DC0:: @ 08107DC0
+gUnk_08107DC0:: @ 08107DC0 @ src/manager/manager4.c
 	.incbin "baserom.gba", 0x107DC0, 0x0000264

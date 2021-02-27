@@ -4,7 +4,7 @@
 	.section .rodata
 	.align 2
 
-gUnk_08000360:: @ 08000360
+gUnk_08000360:: @ 08000360 @ asm/intr.s
 	.incbin "baserom.gba", 0x000360, 0x0000098
 
 gUnk_080003F8:: @ 080003F8

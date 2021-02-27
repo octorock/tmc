@@ -67,5 +67,5 @@ gUnk_080CC934:: @ 080CC934
 gUnk_080CC93C:: @ 080CC93C
 	.incbin "baserom.gba", 0x0CC93C, 0x0000008
 
-gUnk_080CC944:: @ 080CC944
+gUnk_080CC944:: @ 080CC944 @ src/enemy/spearMoblin.c
 	.incbin "baserom.gba", 0x0CC944, 0x0000010

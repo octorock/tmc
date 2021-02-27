@@ -4,7 +4,7 @@
 	.section .rodata
 	.align 2
 
-gUnk_089FC6C4:: @ 089FC6C4
+gUnk_089FC6C4:: @ 089FC6C4 @ asm/m4a_asm.s
 @ replacing .incbin "baserom.gba", 0x009fc6c4, 0x90
 .4byte ply_fine
 .4byte ply_goto
@@ -43,31 +43,31 @@ gUnk_089FC6C4:: @ 089FC6C4
 .4byte RealClearChain
 .4byte SoundMainBTM
 
-gUnk_089FC754:: @ 089FC754
+gUnk_089FC754:: @ 089FC754 @ asm/m4a.s
 	.incbin "baserom.gba", 0x9FC754, 0x00000B4
 
-gUnk_089FC808:: @ 089FC808
+gUnk_089FC808:: @ 089FC808 @ asm/m4a.s
 	.incbin "baserom.gba", 0x9FC808, 0x0000030
 
-gUnk_089FC838:: @ 089FC838
+gUnk_089FC838:: @ 089FC838 @ asm/m4a.s
 	.incbin "baserom.gba", 0x9FC838, 0x0000018
 
-gUnk_089FC850:: @ 089FC850
+gUnk_089FC850:: @ 089FC850 @ asm/m4a.s
 	.incbin "baserom.gba", 0x9FC850, 0x0000084
 
-gUnk_089FC8D4:: @ 089FC8D4
+gUnk_089FC8D4:: @ 089FC8D4 @ asm/m4a.s
 	.incbin "baserom.gba", 0x9FC8D4, 0x0000018
 
-gUnk_089FC8EC:: @ 089FC8EC
+gUnk_089FC8EC:: @ 089FC8EC @ asm/m4a.s
 	.incbin "baserom.gba", 0x9FC8EC, 0x000003C
 
-gUnk_089FC928:: @ 089FC928
+gUnk_089FC928:: @ 089FC928 @ asm/m4a.s
 	.incbin "baserom.gba", 0x9FC928, 0x0000010
 
-gUnk_089FC938:: @ 089FC938
+gUnk_089FC938:: @ 089FC938 @ asm/m4a_asm.s
 	.incbin "baserom.gba", 0x9FC938, 0x0000034
 
-gUnk_089FC96C:: @ 089FC96C
+gUnk_089FC96C:: @ 089FC96C @ asm/m4a.s
 @ replacing .incbin "baserom.gba", 0x009fc96c, 0x30
 .4byte ply_xxx
 .4byte ply_xwave
@@ -1690,10 +1690,10 @@ gUnk_08A11C0C:: @ 08A11C0C
 gUnk_08A11C1C:: @ 08A11C1C
 	.incbin "baserom.gba", 0xA11C1C, 0x0000020
 
-gUnk_08A11C3C:: @ 08A11C3C
+gUnk_08A11C3C:: @ 08A11C3C @ asm/code_080A3480.s, asm/m4a.s, asm/playSFX.s
 	.incbin "baserom.gba", 0xA11C3C, 0x0000180
 
-gUnk_08A11DBC:: @ 08A11DBC
+gUnk_08A11DBC:: @ 08A11DBC @ asm/code_080A3480.s, asm/m4a.s, asm/playSFX.s
 	.incbin "baserom.gba", 0xA11DBC, 0x00009E5
 
 gUnk_08A127A1:: @ 08A127A1
@@ -10303,8 +10303,8 @@ gUnk_08DE7D18:: @ 08DE7D18
 gUnk_08DE7D28:: @ 08DE7D28
 	.incbin "baserom.gba", 0xDE7D28, 0x0000018
 
-gUnk_08DE7D40:: @ 08DE7D40
+gUnk_08DE7D40:: @ 08DE7D40 @ asm/code_080B1520.s
 	.incbin "baserom.gba", 0xDE7D40, 0x000000C
 
-gUnk_08DE7D4C:: @ 08DE7D4C
+gUnk_08DE7D4C:: @ 08DE7D4C @ asm/code_080B1520.s
 	.incbin "baserom.gba", 0xDE7D4C, 0x0000058

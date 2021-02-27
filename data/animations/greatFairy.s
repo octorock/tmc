@@ -4,13 +4,13 @@
 	.section .rodata
 	.align 2
 
-gUnk_0812079C:: @ 0812079C
+gUnk_0812079C:: @ 0812079C @ asm/greatFairy/sub_08087150.inc, src/object/greatFairy.c
 	.incbin "baserom.gba", 0x12079C, 0x0000008
 
-gUnk_081207A4:: @ 081207A4
+gUnk_081207A4:: @ 081207A4 @ src/object/greatFairy.c
 	.incbin "baserom.gba", 0x1207A4, 0x0000008
 
-gUnk_081207AC:: @ 081207AC
+gUnk_081207AC:: @ 081207AC @ src/object/greatFairy.c
 	.incbin "baserom.gba", 0x1207AC, 0x0000004
 
 gUnk_081207B0:: @ 081207B0

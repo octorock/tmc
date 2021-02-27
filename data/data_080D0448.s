@@ -4,43 +4,43 @@
 	.section .rodata
 	.align 2
 
-gUnk_080D0448:: @ 080D0448
+gUnk_080D0448:: @ 080D0448 @ asm/enemy49.s
 	.incbin "baserom.gba", 0x0D0448, 0x0000010
 
-gUnk_080D0458:: @ 080D0458
+gUnk_080D0458:: @ 080D0458 @ asm/enemy49.s
 	.incbin "baserom.gba", 0x0D0458, 0x0000010
 
-gUnk_080D0468:: @ 080D0468
+gUnk_080D0468:: @ 080D0468 @ asm/enemy49.s
 	.incbin "baserom.gba", 0x0D0468, 0x0000008
 
-gUnk_080D0470:: @ 080D0470
+gUnk_080D0470:: @ 080D0470 @ asm/vaatiRebornEnemy.s
 	.incbin "baserom.gba", 0x0D0470, 0x0000020
 
-gUnk_080D0490:: @ 080D0490
+gUnk_080D0490:: @ 080D0490 @ asm/vaatiRebornEnemy.s
 	.incbin "baserom.gba", 0x0D0490, 0x0000008
 
-gUnk_080D0498:: @ 080D0498
+gUnk_080D0498:: @ 080D0498 @ asm/vaatiRebornEnemy.s
 	.incbin "baserom.gba", 0x0D0498, 0x0000008
 
-gUnk_080D04A0:: @ 080D04A0
+gUnk_080D04A0:: @ 080D04A0 @ asm/vaatiRebornEnemy.s
 	.incbin "baserom.gba", 0x0D04A0, 0x0000008
 
-gUnk_080D04A8:: @ 080D04A8
+gUnk_080D04A8:: @ 080D04A8 @ asm/vaatiRebornEnemy.s
 	.incbin "baserom.gba", 0x0D04A8, 0x0000004
 
-gUnk_080D04AC:: @ 080D04AC
+gUnk_080D04AC:: @ 080D04AC @ asm/vaatiRebornEnemy.s
 	.incbin "baserom.gba", 0x0D04AC, 0x0000014
 
-gUnk_080D04C0:: @ 080D04C0
+gUnk_080D04C0:: @ 080D04C0 @ asm/vaatiRebornEnemy.s
 	.incbin "baserom.gba", 0x0D04C0, 0x0000008
 
-gUnk_080D04C8:: @ 080D04C8
+gUnk_080D04C8:: @ 080D04C8 @ asm/vaatiRebornEnemy.s
 	.incbin "baserom.gba", 0x0D04C8, 0x0000008
 
-gUnk_080D04D0:: @ 080D04D0
+gUnk_080D04D0:: @ 080D04D0 @ asm/vaatiRebornEnemy.s
 	.incbin "baserom.gba", 0x0D04D0, 0x0000003
 
-gUnk_080D04D3:: @ 080D04D3
+gUnk_080D04D3:: @ 080D04D3 @ asm/vaatiRebornEnemy.s
 	.incbin "baserom.gba", 0x0D04D3, 0x0000004
 
 gUnk_080D04D7:: @ 080D04D7
@@ -130,10 +130,10 @@ gUnk_080D061E:: @ 080D061E
 gUnk_080D0634:: @ 080D0634
 	.incbin "baserom.gba", 0x0D0634, 0x0000014
 
-gUnk_080D0648:: @ 080D0648
+gUnk_080D0648:: @ 080D0648 @ asm/vaatiProjectile.s
 	.incbin "baserom.gba", 0x0D0648, 0x0000018
 
-gUnk_080D0660:: @ 080D0660
+gUnk_080D0660:: @ 080D0660 @ asm/vaatiProjectile.s
 	.incbin "baserom.gba", 0x0D0660, 0x0000028
 
 gUnk_080D0688:: @ 080D0688
@@ -148,13 +148,13 @@ gUnk_080D06B2:: @ 080D06B2
 gUnk_080D06D0:: @ 080D06D0
 	.incbin "baserom.gba", 0x0D06D0, 0x0000010
 
-gUnk_080D06E0:: @ 080D06E0
+gUnk_080D06E0:: @ 080D06E0 @ asm/ballChainSoldier.s
 	.incbin "baserom.gba", 0x0D06E0, 0x0000008
 
 gUnk_080D06E8:: @ 080D06E8
 	.incbin "baserom.gba", 0x0D06E8, 0x0000010
 
-gUnk_080D06F8:: @ 080D06F8
+gUnk_080D06F8:: @ 080D06F8 @ asm/ballChainSoldier.s
 	.incbin "baserom.gba", 0x0D06F8, 0x0000004
 
 gUnk_080D06FC:: @ 080D06FC
@@ -169,13 +169,13 @@ gUnk_080D0700:: @ 080D0700
 gUnk_080D0701:: @ 080D0701
 	.incbin "baserom.gba", 0x0D0701, 0x0000023
 
-gUnk_080D0724:: @ 080D0724
+gUnk_080D0724:: @ 080D0724 @ asm/ballChainSoldier.s
 	.incbin "baserom.gba", 0x0D0724, 0x0000004
 
-gUnk_080D0728:: @ 080D0728
+gUnk_080D0728:: @ 080D0728 @ asm/ballChainSoldier.s
 	.incbin "baserom.gba", 0x0D0728, 0x0000008
 
-gUnk_080D0730:: @ 080D0730
+gUnk_080D0730:: @ 080D0730 @ asm/ballChainSoldier.s
 	.incbin "baserom.gba", 0x0D0730, 0x0000008
 
 gUnk_080D0738:: @ 080D0738
@@ -316,16 +316,16 @@ gUnk_080D080A:: @ 080D080A
 gUnk_080D0819:: @ 080D0819
 	.incbin "baserom.gba", 0x0D0819, 0x0000067
 
-gUnk_080D0880:: @ 080D0880
+gUnk_080D0880:: @ 080D0880 @ src/enemy/enemy4D.c
 	.incbin "baserom.gba", 0x0D0880, 0x0000018
 
-gUnk_080D0898:: @ 080D0898
+gUnk_080D0898:: @ 080D0898 @ src/enemy/enemy4D.c
 	.incbin "baserom.gba", 0x0D0898, 0x000002C
 
-gUnk_080D08C4:: @ 080D08C4
+gUnk_080D08C4:: @ 080D08C4 @ asm/enemy4D.s
 	.incbin "baserom.gba", 0x0D08C4, 0x0000004
 
-gUnk_080D08C8:: @ 080D08C8
+gUnk_080D08C8:: @ 080D08C8 @ asm/enemy4D.s
 	.incbin "baserom.gba", 0x0D08C8, 0x0000035
 
 gUnk_080D08FD:: @ 080D08FD
@@ -349,28 +349,28 @@ gUnk_080D0908:: @ 080D0908
 gUnk_080D0912:: @ 080D0912
 	.incbin "baserom.gba", 0x0D0912, 0x0000012
 
-gUnk_080D0924:: @ 080D0924
+gUnk_080D0924:: @ 080D0924 @ asm/ghini.s
 	.incbin "baserom.gba", 0x0D0924, 0x0000018
 
-gUnk_080D093C:: @ 080D093C
+gUnk_080D093C:: @ 080D093C @ asm/ghini.s
 	.incbin "baserom.gba", 0x0D093C, 0x0000028
 
-gUnk_080D0964:: @ 080D0964
+gUnk_080D0964:: @ 080D0964 @ asm/ghini.s
 	.incbin "baserom.gba", 0x0D0964, 0x000000C
 
-gUnk_080D0970:: @ 080D0970
+gUnk_080D0970:: @ 080D0970 @ asm/ghini.s
 	.incbin "baserom.gba", 0x0D0970, 0x0000004
 
-gUnk_080D0974:: @ 080D0974
+gUnk_080D0974:: @ 080D0974 @ asm/ghini.s
 	.incbin "baserom.gba", 0x0D0974, 0x0000004
 
-gUnk_080D0978:: @ 080D0978
+gUnk_080D0978:: @ 080D0978 @ asm/ghini.s
 	.incbin "baserom.gba", 0x0D0978, 0x0000008
 
-gUnk_080D0980:: @ 080D0980
+gUnk_080D0980:: @ 080D0980 @ asm/ghini.s
 	.incbin "baserom.gba", 0x0D0980, 0x0000004
 
-gUnk_080D0984:: @ 080D0984
+gUnk_080D0984:: @ 080D0984 @ asm/ghini.s
 	.incbin "baserom.gba", 0x0D0984, 0x0000004
 
 gUnk_080D0988:: @ 080D0988
@@ -433,22 +433,22 @@ gUnk_080D0A8B:: @ 080D0A8B
 gUnk_080D0A90:: @ 080D0A90
 	.incbin "baserom.gba", 0x0D0A90, 0x000002C
 
-gUnk_080D0ABC:: @ 080D0ABC
+gUnk_080D0ABC:: @ 080D0ABC @ asm/vaatiTransfigured.s
 	.incbin "baserom.gba", 0x0D0ABC, 0x0000003
 
-gUnk_080D0ABF:: @ 080D0ABF
+gUnk_080D0ABF:: @ 080D0ABF @ asm/vaatiTransfigured.s
 	.incbin "baserom.gba", 0x0D0ABF, 0x0000009
 
-gUnk_080D0AC8:: @ 080D0AC8
+gUnk_080D0AC8:: @ 080D0AC8 @ asm/vaatiTransfigured.s
 	.incbin "baserom.gba", 0x0D0AC8, 0x0000020
 
-gUnk_080D0AE8:: @ 080D0AE8
+gUnk_080D0AE8:: @ 080D0AE8 @ asm/vaatiTransfigured.s
 	.incbin "baserom.gba", 0x0D0AE8, 0x0000008
 
-gUnk_080D0AF0:: @ 080D0AF0
+gUnk_080D0AF0:: @ 080D0AF0 @ asm/vaatiTransfigured.s
 	.incbin "baserom.gba", 0x0D0AF0, 0x000000C
 
-gUnk_080D0AFC:: @ 080D0AFC
+gUnk_080D0AFC:: @ 080D0AFC @ asm/vaatiTransfigured.s
 	.incbin "baserom.gba", 0x0D0AFC, 0x0000004
 
 gUnk_080D0B00:: @ 080D0B00
@@ -460,13 +460,13 @@ gUnk_080D0B01:: @ 080D0B01
 gUnk_080D0B02:: @ 080D0B02
 	.incbin "baserom.gba", 0x0D0B02, 0x0000002
 
-gUnk_080D0B04:: @ 080D0B04
+gUnk_080D0B04:: @ 080D0B04 @ asm/vaatiTransfigured.s
 	.incbin "baserom.gba", 0x0D0B04, 0x0000002
 
 gUnk_080D0B06:: @ 080D0B06
 	.incbin "baserom.gba", 0x0D0B06, 0x0000006
 
-gUnk_080D0B0C:: @ 080D0B0C
+gUnk_080D0B0C:: @ 080D0B0C @ asm/vaatiTransfigured.s
 	.incbin "baserom.gba", 0x0D0B0C, 0x0000003
 
 gUnk_080D0B0F:: @ 080D0B0F
@@ -475,22 +475,22 @@ gUnk_080D0B0F:: @ 080D0B0F
 gUnk_080D0B10:: @ 080D0B10
 	.incbin "baserom.gba", 0x0D0B10, 0x0000008
 
-gUnk_080D0B18:: @ 080D0B18
+gUnk_080D0B18:: @ 080D0B18 @ asm/vaatiTransfigured.s
 	.incbin "baserom.gba", 0x0D0B18, 0x0000011
 
 gUnk_080D0B29:: @ 080D0B29
 	.incbin "baserom.gba", 0x0D0B29, 0x000002F
 
-gUnk_080D0B58:: @ 080D0B58
+gUnk_080D0B58:: @ 080D0B58 @ asm/vaatiTransfigured.s
 	.incbin "baserom.gba", 0x0D0B58, 0x000000C
 
-gUnk_080D0B64:: @ 080D0B64
+gUnk_080D0B64:: @ 080D0B64 @ asm/vaatiTransfigured.s
 	.incbin "baserom.gba", 0x0D0B64, 0x0000010
 
-gUnk_080D0B74:: @ 080D0B74
+gUnk_080D0B74:: @ 080D0B74 @ asm/vaatiTransfigured.s
 	.incbin "baserom.gba", 0x0D0B74, 0x0000010
 
-gUnk_080D0B84:: @ 080D0B84
+gUnk_080D0B84:: @ 080D0B84 @ asm/vaatiTransfigured.s
 	.incbin "baserom.gba", 0x0D0B84, 0x0000020
 
 gUnk_080D0BA4:: @ 080D0BA4
@@ -604,10 +604,10 @@ gUnk_080D0DA1:: @ 080D0DA1
 gUnk_080D0DB0:: @ 080D0DB0
 	.incbin "baserom.gba", 0x0D0DB0, 0x0000014
 
-gUnk_080D0DC4:: @ 080D0DC4
+gUnk_080D0DC4:: @ 080D0DC4 @ asm/enemy50.s
 	.incbin "baserom.gba", 0x0D0DC4, 0x0000018
 
-gUnk_080D0DDC:: @ 080D0DDC
+gUnk_080D0DDC:: @ 080D0DDC @ asm/enemy50.s
 	.incbin "baserom.gba", 0x0D0DDC, 0x000001B
 
 gUnk_080D0DF7:: @ 080D0DF7
@@ -616,7 +616,7 @@ gUnk_080D0DF7:: @ 080D0DF7
 gUnk_080D0E01:: @ 080D0E01
 	.incbin "baserom.gba", 0x0D0E01, 0x0000007
 
-gUnk_080D0E08:: @ 080D0E08
+gUnk_080D0E08:: @ 080D0E08 @ asm/enemy50.s
 	.incbin "baserom.gba", 0x0D0E08, 0x0000002
 
 gUnk_080D0E0A:: @ 080D0E0A
@@ -637,40 +637,40 @@ gUnk_080D0E0F:: @ 080D0E0F
 gUnk_080D0E13:: @ 080D0E13
 	.incbin "baserom.gba", 0x0D0E13, 0x0000001
 
-gUnk_080D0E14:: @ 080D0E14
+gUnk_080D0E14:: @ 080D0E14 @ asm/enemy50.s
 	.incbin "baserom.gba", 0x0D0E14, 0x0000004
 
-gUnk_080D0E18:: @ 080D0E18
+gUnk_080D0E18:: @ 080D0E18 @ asm/enemy50.s
 	.incbin "baserom.gba", 0x0D0E18, 0x0000004
 
-gUnk_080D0E1C:: @ 080D0E1C
+gUnk_080D0E1C:: @ 080D0E1C @ asm/vaatiWrath.s
 	.incbin "baserom.gba", 0x0D0E1C, 0x0000010
 
-gUnk_080D0E2C:: @ 080D0E2C
+gUnk_080D0E2C:: @ 080D0E2C @ asm/vaatiWrath.s
 	.incbin "baserom.gba", 0x0D0E2C, 0x0000038
 
-gUnk_080D0E64:: @ 080D0E64
+gUnk_080D0E64:: @ 080D0E64 @ asm/vaatiWrath.s
 	.incbin "baserom.gba", 0x0D0E64, 0x0000004
 
-gUnk_080D0E68:: @ 080D0E68
+gUnk_080D0E68:: @ 080D0E68 @ asm/vaatiWrath.s
 	.incbin "baserom.gba", 0x0D0E68, 0x0000018
 
-gUnk_080D0E80:: @ 080D0E80
+gUnk_080D0E80:: @ 080D0E80 @ asm/vaatiWrath.s
 	.incbin "baserom.gba", 0x0D0E80, 0x0000010
 
-gUnk_080D0E90:: @ 080D0E90
+gUnk_080D0E90:: @ 080D0E90 @ asm/vaatiWrath.s
 	.incbin "baserom.gba", 0x0D0E90, 0x0000010
 
-gUnk_080D0EA0:: @ 080D0EA0
+gUnk_080D0EA0:: @ 080D0EA0 @ asm/vaatiWrath.s
 	.incbin "baserom.gba", 0x0D0EA0, 0x0000008
 
-gUnk_080D0EA8:: @ 080D0EA8
+gUnk_080D0EA8:: @ 080D0EA8 @ asm/vaatiWrath.s
 	.incbin "baserom.gba", 0x0D0EA8, 0x0000004
 
-gUnk_080D0EAC:: @ 080D0EAC
+gUnk_080D0EAC:: @ 080D0EAC @ asm/vaatiWrath.s
 	.incbin "baserom.gba", 0x0D0EAC, 0x0000004
 
-gUnk_080D0EB0:: @ 080D0EB0
+gUnk_080D0EB0:: @ 080D0EB0 @ asm/vaatiWrath.s
 	.incbin "baserom.gba", 0x0D0EB0, 0x0000020
 
 gUnk_080D0ED0:: @ 080D0ED0
@@ -889,79 +889,79 @@ gUnk_080D1219:: @ 080D1219
 gUnk_080D121D:: @ 080D121D
 	.incbin "baserom.gba", 0x0D121D, 0x0000013
 
-gUnk_080D1230:: @ 080D1230
+gUnk_080D1230:: @ 080D1230 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1230, 0x0000018
 
-gUnk_080D1248:: @ 080D1248
+gUnk_080D1248:: @ 080D1248 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1248, 0x0000014
 
-gUnk_080D125C:: @ 080D125C
+gUnk_080D125C:: @ 080D125C @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D125C, 0x0000024
 
-gUnk_080D1280:: @ 080D1280
+gUnk_080D1280:: @ 080D1280 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1280, 0x0000004
 
-gUnk_080D1284:: @ 080D1284
+gUnk_080D1284:: @ 080D1284 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1284, 0x0000002
 
-gUnk_080D1286:: @ 080D1286
+gUnk_080D1286:: @ 080D1286 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1286, 0x000000A
 
-gUnk_080D1290:: @ 080D1290
+gUnk_080D1290:: @ 080D1290 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1290, 0x000001C
 
-gUnk_080D12AC:: @ 080D12AC
+gUnk_080D12AC:: @ 080D12AC @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D12AC, 0x0000004
 
-gUnk_080D12B0:: @ 080D12B0
+gUnk_080D12B0:: @ 080D12B0 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D12B0, 0x0000002
 
-gUnk_080D12B2:: @ 080D12B2
+gUnk_080D12B2:: @ 080D12B2 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D12B2, 0x0000002
 
-gUnk_080D12B4:: @ 080D12B4
+gUnk_080D12B4:: @ 080D12B4 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D12B4, 0x0000002
 
-gUnk_080D12B6:: @ 080D12B6
+gUnk_080D12B6:: @ 080D12B6 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D12B6, 0x0000002
 
-gUnk_080D12B8:: @ 080D12B8
+gUnk_080D12B8:: @ 080D12B8 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D12B8, 0x0000010
 
-gUnk_080D12C8:: @ 080D12C8
+gUnk_080D12C8:: @ 080D12C8 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D12C8, 0x0000002
 
-gUnk_080D12CA:: @ 080D12CA
+gUnk_080D12CA:: @ 080D12CA @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D12CA, 0x0000006
 
-gUnk_080D12D0:: @ 080D12D0
+gUnk_080D12D0:: @ 080D12D0 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D12D0, 0x000001D
 
 gUnk_080D12ED:: @ 080D12ED
 	.incbin "baserom.gba", 0x0D12ED, 0x000000B
 
-gUnk_080D12F8:: @ 080D12F8
+gUnk_080D12F8:: @ 080D12F8 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D12F8, 0x0000006
 
 gUnk_080D12FE:: @ 080D12FE
 	.incbin "baserom.gba", 0x0D12FE, 0x0000002
 
-gUnk_080D1300:: @ 080D1300
+gUnk_080D1300:: @ 080D1300 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1300, 0x0000004
 
-gUnk_080D1304:: @ 080D1304
+gUnk_080D1304:: @ 080D1304 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1304, 0x0000008
 
-gUnk_080D130C:: @ 080D130C
+gUnk_080D130C:: @ 080D130C @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D130C, 0x0000001
 
 gUnk_080D130D:: @ 080D130D
 	.incbin "baserom.gba", 0x0D130D, 0x0000003
 
-gUnk_080D1310:: @ 080D1310
+gUnk_080D1310:: @ 080D1310 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1310, 0x0000004
 
-gUnk_080D1314:: @ 080D1314
+gUnk_080D1314:: @ 080D1314 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1314, 0x0000001
 
 gUnk_080D1315:: @ 080D1315
@@ -982,52 +982,52 @@ gUnk_080D1319:: @ 080D1319
 gUnk_080D131A:: @ 080D131A
 	.incbin "baserom.gba", 0x0D131A, 0x0000002
 
-gUnk_080D131C:: @ 080D131C
+gUnk_080D131C:: @ 080D131C @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D131C, 0x0000004
 
-gUnk_080D1320:: @ 080D1320
+gUnk_080D1320:: @ 080D1320 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1320, 0x0000018
 
-gUnk_080D1338:: @ 080D1338
+gUnk_080D1338:: @ 080D1338 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1338, 0x0000004
 
-gUnk_080D133C:: @ 080D133C
+gUnk_080D133C:: @ 080D133C @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D133C, 0x0000004
 
-gUnk_080D1340:: @ 080D1340
+gUnk_080D1340:: @ 080D1340 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1340, 0x0000008
 
-gUnk_080D1348:: @ 080D1348
+gUnk_080D1348:: @ 080D1348 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1348, 0x0000014
 
-gUnk_080D135C:: @ 080D135C
+gUnk_080D135C:: @ 080D135C @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D135C, 0x0000006
 
-gUnk_080D1362:: @ 080D1362
+gUnk_080D1362:: @ 080D1362 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1362, 0x0000050
 
-gUnk_080D13B2:: @ 080D13B2
+gUnk_080D13B2:: @ 080D13B2 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D13B2, 0x0000005
 
-gUnk_080D13B7:: @ 080D13B7
+gUnk_080D13B7:: @ 080D13B7 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D13B7, 0x0000021
 
-gUnk_080D13D8:: @ 080D13D8
+gUnk_080D13D8:: @ 080D13D8 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D13D8, 0x0000008
 
-gUnk_080D13E0:: @ 080D13E0
+gUnk_080D13E0:: @ 080D13E0 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D13E0, 0x0000003
 
-gUnk_080D13E3:: @ 080D13E3
+gUnk_080D13E3:: @ 080D13E3 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D13E3, 0x0000006
 
-gUnk_080D13E9:: @ 080D13E9
+gUnk_080D13E9:: @ 080D13E9 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D13E9, 0x0000003
 
-gUnk_080D13EC:: @ 080D13EC
+gUnk_080D13EC:: @ 080D13EC @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D13EC, 0x0000014
 
-gUnk_080D1400:: @ 080D1400
+gUnk_080D1400:: @ 080D1400 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1400, 0x000000D
 
 gUnk_080D140D:: @ 080D140D
@@ -1036,7 +1036,7 @@ gUnk_080D140D:: @ 080D140D
 gUnk_080D1412:: @ 080D1412
 	.incbin "baserom.gba", 0x0D1412, 0x0000002
 
-gUnk_080D1414:: @ 080D1414
+gUnk_080D1414:: @ 080D1414 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1414, 0x0000003
 
 gUnk_080D1417:: @ 080D1417
@@ -1045,7 +1045,7 @@ gUnk_080D1417:: @ 080D1417
 gUnk_080D1418:: @ 080D1418
 	.incbin "baserom.gba", 0x0D1418, 0x0000001
 
-gUnk_080D1419:: @ 080D1419
+gUnk_080D1419:: @ 080D1419 @ asm/vaatiArm.s
 	.incbin "baserom.gba", 0x0D1419, 0x0000003
 
 gUnk_080D141C:: @ 080D141C
@@ -1129,19 +1129,19 @@ gUnk_080D152A:: @ 080D152A
 gUnk_080D1530:: @ 080D1530
 	.incbin "baserom.gba", 0x0D1530, 0x0000058
 
-gUnk_080D1588:: @ 080D1588
+gUnk_080D1588:: @ 080D1588 @ asm/dust.s
 	.incbin "baserom.gba", 0x0D1588, 0x0000018
 
-gUnk_080D15A0:: @ 080D15A0
+gUnk_080D15A0:: @ 080D15A0 @ asm/dust.s
 	.incbin "baserom.gba", 0x0D15A0, 0x0000008
 
-gUnk_080D15A8:: @ 080D15A8
+gUnk_080D15A8:: @ 080D15A8 @ asm/dust.s
 	.incbin "baserom.gba", 0x0D15A8, 0x000000C
 
-gUnk_080D15B4:: @ 080D15B4
+gUnk_080D15B4:: @ 080D15B4 @ asm/dust.s
 	.incbin "baserom.gba", 0x0D15B4, 0x0000050
 
-gUnk_080D1604:: @ 080D1604
+gUnk_080D1604:: @ 080D1604 @ src/enemy/vaatiBall.c
 	.incbin "baserom.gba", 0x0D1604, 0x0000014
 
 gUnk_080D1618:: @ 080D1618
@@ -1150,10 +1150,10 @@ gUnk_080D1618:: @ 080D1618
 gUnk_080D161D:: @ 080D161D
 	.incbin "baserom.gba", 0x0D161D, 0x0000003
 
-gUnk_080D1620:: @ 080D1620
+gUnk_080D1620:: @ 080D1620 @ src/enemy/vaatiBall.c
 	.incbin "baserom.gba", 0x0D1620, 0x0000008
 
-gUnk_080D1628:: @ 080D1628
+gUnk_080D1628:: @ 080D1628 @ src/enemy/vaatiBall.c
 	.incbin "baserom.gba", 0x0D1628, 0x0000007
 
 gUnk_080D162F:: @ 080D162F
@@ -1171,16 +1171,16 @@ gUnk_080D166E:: @ 080D166E
 gUnk_080D1694:: @ 080D1694
 	.incbin "baserom.gba", 0x0D1694, 0x0000010
 
-gUnk_080D16A4:: @ 080D16A4
+gUnk_080D16A4:: @ 080D16A4 @ src/enemy/slime.c
 	.incbin "baserom.gba", 0x0D16A4, 0x0000018
 
-gUnk_080D16BC:: @ 080D16BC
+gUnk_080D16BC:: @ 080D16BC @ src/enemy/slime.c
 	.incbin "baserom.gba", 0x0D16BC, 0x0000014
 
-gUnk_080D16D0:: @ 080D16D0
+gUnk_080D16D0:: @ 080D16D0 @ src/enemy/slime.c
 	.incbin "baserom.gba", 0x0D16D0, 0x0000004
 
-gUnk_080D16D4:: @ 080D16D4
+gUnk_080D16D4:: @ 080D16D4 @ src/enemy/slime.c
 	.incbin "baserom.gba", 0x0D16D4, 0x0000008
 
 gUnk_080D16DC:: @ 080D16DC
@@ -1222,22 +1222,22 @@ gUnk_080D177D:: @ 080D177D
 gUnk_080D1790:: @ 080D1790
 	.incbin "baserom.gba", 0x0D1790, 0x0000030
 
-gUnk_080D17C0:: @ 080D17C0
+gUnk_080D17C0:: @ 080D17C0 @ src/enemy/miniSlime.c
 	.incbin "baserom.gba", 0x0D17C0, 0x0000018
 
-gUnk_080D17D8:: @ 080D17D8
+gUnk_080D17D8:: @ 080D17D8 @ src/enemy/miniSlime.c
 	.incbin "baserom.gba", 0x0D17D8, 0x0000010
 
-gUnk_080D17E8:: @ 080D17E8
+gUnk_080D17E8:: @ 080D17E8 @ src/enemy/fireballGuy.c
 	.incbin "baserom.gba", 0x0D17E8, 0x0000018
 
-gUnk_080D1800:: @ 080D1800
+gUnk_080D1800:: @ 080D1800 @ src/enemy/fireballGuy.c
 	.incbin "baserom.gba", 0x0D1800, 0x000000C
 
-gUnk_080D180C:: @ 080D180C
+gUnk_080D180C:: @ 080D180C @ src/enemy/fireballGuy.c
 	.incbin "baserom.gba", 0x0D180C, 0x0000004
 
-gUnk_080D1810:: @ 080D1810
+gUnk_080D1810:: @ 080D1810 @ src/enemy/fireballGuy.c
 	.incbin "baserom.gba", 0x0D1810, 0x0000008
 
 gUnk_080D1818:: @ 080D1818
@@ -1255,19 +1255,19 @@ gUnk_080D1839:: @ 080D1839
 gUnk_080D185C:: @ 080D185C
 	.incbin "baserom.gba", 0x0D185C, 0x000000C
 
-gUnk_080D1868:: @ 080D1868
+gUnk_080D1868:: @ 080D1868 @ src/enemy/miniFireballGuy.c
 	.incbin "baserom.gba", 0x0D1868, 0x0000018
 
-gUnk_080D1880:: @ 080D1880
+gUnk_080D1880:: @ 080D1880 @ src/enemy/miniFireballGuy.c
 	.incbin "baserom.gba", 0x0D1880, 0x0000008
 
-gUnk_080D1888:: @ 080D1888
+gUnk_080D1888:: @ 080D1888 @ asm/enemy5A.s
 	.incbin "baserom.gba", 0x0D1888, 0x0000018
 
-gUnk_080D18A0:: @ 080D18A0
+gUnk_080D18A0:: @ 080D18A0 @ asm/enemy5A.s
 	.incbin "baserom.gba", 0x0D18A0, 0x0000014
 
-gUnk_080D18B4:: @ 080D18B4
+gUnk_080D18B4:: @ 080D18B4 @ asm/enemy5A.s
 	.incbin "baserom.gba", 0x0D18B4, 0x0000010
 
 gUnk_080D18C4:: @ 080D18C4
@@ -1321,28 +1321,28 @@ gUnk_080D19AD:: @ 080D19AD
 gUnk_080D19B8:: @ 080D19B8
 	.incbin "baserom.gba", 0x0D19B8, 0x0000044
 
-gUnk_080D19FC:: @ 080D19FC
+gUnk_080D19FC:: @ 080D19FC @ asm/businessScrubPrologue.s
 	.incbin "baserom.gba", 0x0D19FC, 0x0000018
 
-gUnk_080D1A14:: @ 080D1A14
+gUnk_080D1A14:: @ 080D1A14 @ asm/businessScrubPrologue.s
 	.incbin "baserom.gba", 0x0D1A14, 0x0000024
 
-gUnk_080D1A38:: @ 080D1A38
+gUnk_080D1A38:: @ 080D1A38 @ asm/businessScrubPrologue.s
 	.incbin "baserom.gba", 0x0D1A38, 0x0000006
 
-gUnk_080D1A3E:: @ 080D1A3E
+gUnk_080D1A3E:: @ 080D1A3E @ asm/businessScrubPrologue.s
 	.incbin "baserom.gba", 0x0D1A3E, 0x0000010
 
-gUnk_080D1A4E:: @ 080D1A4E
+gUnk_080D1A4E:: @ 080D1A4E @ asm/businessScrubPrologue.s
 	.incbin "baserom.gba", 0x0D1A4E, 0x0000016
 
-gUnk_080D1A64:: @ 080D1A64
+gUnk_080D1A64:: @ 080D1A64 @ asm/gyorgFemale.s
 	.incbin "baserom.gba", 0x0D1A64, 0x0000010
 
-gUnk_080D1A74:: @ 080D1A74
+gUnk_080D1A74:: @ 080D1A74 @ asm/gyorgFemale.s
 	.incbin "baserom.gba", 0x0D1A74, 0x0000010
 
-gUnk_080D1A84:: @ 080D1A84
+gUnk_080D1A84:: @ 080D1A84 @ asm/gyorgFemale.s
 	.incbin "baserom.gba", 0x0D1A84, 0x0000010
 
 gUnk_080D1A94:: @ 080D1A94
@@ -1357,8 +1357,8 @@ gUnk_080D1AC4:: @ 080D1AC4
 gUnk_080D1ADC:: @ 080D1ADC
 	.incbin "baserom.gba", 0x0D1ADC, 0x0000018
 
-gUnk_080D1AF4:: @ 080D1AF4
+gUnk_080D1AF4:: @ 080D1AF4 @ asm/gyorgFemale.s
 	.incbin "baserom.gba", 0x0D1AF4, 0x0000004
 
-gUnk_080D1AF8:: @ 080D1AF8
+gUnk_080D1AF8:: @ 080D1AF8 @ asm/gyorgFemale.s
 	.incbin "baserom.gba", 0x0D1AF8, 0x0000004
