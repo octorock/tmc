@@ -247,7 +247,7 @@ _08001370: .4byte sub_080AF18C
 _08001374: .4byte sub_080AF1BC
 _08001378: .4byte GetFacingDirection
 
-gUnk_0800137C:: @ 0800137C
+gUnk_0800137C:: @ 0800137C @ asm/non_matching/code_0805457C.inc
 	.incbin "baserom.gba", 0x00137C, 0x0000004
 
 gUnk_08001380:: @ 08001380
@@ -268,7 +268,7 @@ gUnk_08001410:: @ 08001410
 gUnk_0800141C:: @ 0800141C
 	.incbin "baserom.gba", 0x00141C, 0x0000020
 
-gUnk_0800143C:: @ 0800143C
+gUnk_0800143C:: @ 0800143C @ asm/non_matching/code_0805457C.inc
 	.incbin "baserom.gba", 0x00143C, 0x00000E5
 
 gUnk_08001521:: @ 08001521
@@ -280,13 +280,13 @@ gUnk_08001533:: @ 08001533
 gUnk_08001540:: @ 08001540
 	.incbin "baserom.gba", 0x001540, 0x000007C
 
-gUnk_080015BC:: @ 080015BC
+gUnk_080015BC:: @ 080015BC @ asm/code_0804B058.s, asm/non_matching/sub_08054524.inc, src/code_0805436C.c
 	.incbin "baserom.gba", 0x0015BC, 0x0000035
 
 gUnk_080015F1:: @ 080015F1
 	.incbin "baserom.gba", 0x0015F1, 0x000002B
 
-gUnk_0800161C:: @ 0800161C
+gUnk_0800161C:: @ 0800161C @ asm/non_matching/code_0805457C.inc
 	.incbin "baserom.gba", 0x00161C, 0x000001B
 
 gUnk_08001637:: @ 08001637
@@ -343,7 +343,7 @@ gUnk_08001902:: @ 08001902
 gUnk_08001911:: @ 08001911
 	.incbin "baserom.gba", 0x001911, 0x000000B
 
-gUnk_0800191C:: @ 0800191C
+gUnk_0800191C:: @ 0800191C @ asm/non_matching/code_0805457C.inc
 	.incbin "baserom.gba", 0x00191C, 0x000004F
 
 gUnk_0800196B:: @ 0800196B
@@ -355,10 +355,10 @@ gUnk_08001980:: @ 08001980
 gUnk_08001A18:: @ 08001A18
 	.incbin "baserom.gba", 0x001A18, 0x0000004
 
-gUnk_08001A1C:: @ 08001A1C
+gUnk_08001A1C:: @ 08001A1C @ asm/non_matching/code_0805457C.inc
 	.incbin "baserom.gba", 0x001A1C, 0x0000060
 
-gUnk_08001A7C:: @ 08001A7C
+gUnk_08001A7C:: @ 08001A7C @ asm/code_0806ED78.s, asm/code_0807F0D8.s, asm/hurdyGurdyMan.s, src/npc/percy.c
 	.incbin "baserom.gba", 0x001A7C, 0x00000A5
 
 gUnk_08001B21:: @ 08001B21
@@ -562,7 +562,7 @@ gUnk_08001DBE:: @ 08001DBE
 gUnk_08001DC4:: @ 08001DC4
 	.incbin "baserom.gba", 0x001DC4, 0x0000008
 
-gUnk_08001DCC:: @ 08001DCC
+gUnk_08001DCC:: @ 08001DCC @ asm/code_0801D79C.s
 	.incbin "baserom.gba", 0x001DCC, 0x0000051
 
 gUnk_08001E1D:: @ 08001E1D

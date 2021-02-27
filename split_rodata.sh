@@ -7,7 +7,7 @@ function split_file {
     FILE_PATH="$1"
     while IFS= read -r LINE
     do
-        UNK="$(echo $LINE | grep ^gUnk)"
+        UNK="$(echo $LINE | grep ^gUnk.*@)"
         if [ "$?" -eq 0 ]
         then
             # A line containing a gUnk
@@ -15,13 +15,13 @@ function split_file {
             ADDR=$(echo ${PARTS[1]} | xargs)  # trim whitespace https://stackoverflow.com/a/12973694
 
             # search for usages in asm/ and src/
-            USAGES="$(grep $ADDR -R asm/ src/)"
+            USAGES="$(grep $ADDR -r asm/ src/ | grep -v $FILE_PATH)" # except in this file itself (in case it resides in asm/)
             if [ "$?" -eq 0 ]
             then
                 # this gUnk is referenced
-                FILES="$(echo $USAGES | cut -d : -f 1)" # extract the file part
-                UNIQUE_FILES="$(echo $FILES | sort | uniq)" # deduplicate file names
-                COMMENT="$(echo $UNIQUE_FILES | tr '\n', ',' | sed 's/,$//'| sed 's/,/, /g' )" # join with comma, remove trailing comma, add spaces after commas
+                FILES=`echo "$USAGES" | cut -d : -f 1` # extract the file part
+                UNIQUE_FILES=`echo "$FILES" | sort | uniq` # deduplicate file names
+                COMMENT=`echo "$UNIQUE_FILES" | tr '\n' ',' | sed 's/,$//'| sed 's/,/, /g'` # join with comma, remove trailing comma, add spaces after commas
                 echo "$(echo $LINE | tr -d '\n') @ $COMMENT"
             else
                 # gUnk was never referenced
@@ -34,7 +34,12 @@ function split_file {
     done < $FILE_PATH
 }
 
-FILE_PATHS="$(find data -name '*.s')"
+# Files in data/
+#FILE_PATHS="$(find data -name '*.s')"
+
+# Files in asm/ that still contain .incbin "baserom.gba"
+FILE_PATHS="$(grep baserom asm/* -R | cut -d : -f 1 | sort | uniq)"
+
 export IFS=$'\n'
 for FILE in $FILE_PATHS
 do

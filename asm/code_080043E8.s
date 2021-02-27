@@ -368,7 +368,7 @@ _08004698: .4byte gUnk_080C93E0
 _0800469C: .4byte 0x00000106
 _080046A0: .4byte 0x00000280
 
-gUnk_080046A4:: @ 080046A4
+gUnk_080046A4:: @ 080046A4 @ asm/code_0800857C.s, asm/code_0806FA6C.s
 	.incbin "baserom.gba", 0x0046A4, 0x0000063
 
 gUnk_08004707:: @ 08004707
@@ -377,7 +377,7 @@ gUnk_08004707:: @ 08004707
 gUnk_0800476A:: @ 0800476A
 	.incbin "baserom.gba", 0x00476A, 0x000008C
 
-gUnk_080047F6:: @ 080047F6
+gUnk_080047F6:: @ 080047F6 @ asm/code_0800857C.s, asm/code_0806FA6C.s
 	.incbin "baserom.gba", 0x0047F6, 0x0000200
 
 gUnk_080049F6:: @ 080049F6
@@ -1823,7 +1823,7 @@ gUnk_08007C1F:: @ 08007C1F
 gUnk_08007C2E:: @ 08007C2E
 	.incbin "baserom.gba", 0x007C2E, 0x000007E
 
-gUnk_08007CAC:: @ 08007CAC
+gUnk_08007CAC:: @ 08007CAC @ asm/code_0800857C.s, asm/code_08078778.s
 	.incbin "baserom.gba", 0x007CAC, 0x000005B
 
 gUnk_08007D07:: @ 08007D07
