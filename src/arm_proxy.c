@@ -350,7 +350,7 @@ void ObjectUpdate(Entity* this) {
     DrawEntity(this);
 }
 
-void sub_08017508(Entity* this) {
+void ManagerUpdate(Entity* this) {
     if (!sub_0805E3B0(this))
         gManagerFunctions[this->id](this);
 }
