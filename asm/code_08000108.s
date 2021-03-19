@@ -5,6 +5,8 @@
 
 	.text
 
+	#.space 0x10000
+
 	thumb_func_start sub_08000108
 sub_08000108: @ 0x08000108
 	push {r4, lr}
