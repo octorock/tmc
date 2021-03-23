@@ -51,8 +51,6 @@
 	.include "data/const/enemy/wisp.inc"
 	.include "data/animations/enemy/wisp.inc"
 
-	.incbin "baserom.gba", 0x0CEBDC, 0x000010
-
 	.include "data/const/enemy/spinyBeetle.inc"
 	.include "data/animations/enemy/spinyBeetle.inc"
 

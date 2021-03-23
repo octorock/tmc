@@ -1,3 +1,5 @@
+	.incbin "baserom.gba", 0x0CEBDC, 0x000010
+
 gUnk_080CEBEC:: @ 080CEBEC 
 	.4byte sub_080337BC
 	.4byte sub_080337D4
