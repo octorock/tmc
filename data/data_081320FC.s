@@ -11367,6 +11367,8 @@ gUnk_085B4180:: @ 085B4180
 gUnk_085B5035:: @ 085B5035
 	.incbin "baserom.gba", 0x5B5035, 0x0000E8B
 
+
+@ TODO figurine Data
 gUnk_085B5EC0:: @ 085B5EC0
 	.incbin "baserom.gba", 0x5B5EC0, 0x00000E0
 
@@ -11783,6 +11785,9 @@ gUnk_085BD440:: @ 085BD440
 
 gUnk_085BD520:: @ 085BD520
 	.incbin "baserom.gba", 0x5BD520, 0x0000100
+
+@ TODO end of figurine data
+
 
 gUnk_085BD620:: @ 085BD620
 	.incbin "graphics/intro/capcom.gbapal"
@@ -14034,6 +14039,7 @@ gUnk_08834566:: @ 08834566
 gUnk_0883B312:: @ 0883B312
 	.incbin "baserom.gba", 0x83B312, 0x00047EE
 
+@ TODO start of figurine data
 gUnk_0883FB00:: @ 0883FB00
 	.incbin "baserom.gba", 0x83FB00, 0x0000509
 
@@ -14952,6 +14958,8 @@ gUnk_088BEE64:: @ 088BEE64
 gUnk_088C00E0:: @ 088C00E0
 	.incbin "baserom.gba", 0x8C00E0, 0x0000220
 
+@ TODO end of figurine data
+
 gUnk_088C0300:: @ 088C0300
 	.incbin "baserom.gba", 0x8C0300, 0x000035C
 
@@ -14960,6 +14968,8 @@ gUnk_088C065C:: @ 088C065C
 
 gUnk_088C0900:: @ 088C0900
 	.incbin "baserom.gba", 0x8C0900, 0x0001980
+
+@ TODO probably here actually
 
 gUnk_088C2280:: @ 088C2280
 	.incbin "graphics/intro/nintendo_capcom.4bpp"
