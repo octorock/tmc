@@ -1,3 +1,9 @@
+	.include "asm/macros.inc"
+	.include "constants/constants.inc"
+
+	.section .rodata
+    .align 2
+
 
 gUnk_080D1CF0:: @ 080D1CF0
 	.incbin "baserom.gba", 0x0D1CF0, 0x0000009

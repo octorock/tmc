@@ -1,3 +1,9 @@
+	.include "asm/macros.inc"
+	.include "constants/constants.inc"
+
+	.section .rodata
+    .align 2
+
 gUnk_080D2050:: @ 080D2050
 	.incbin "baserom.gba", 0x0D2050, 0x0000014
 

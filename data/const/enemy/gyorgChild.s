@@ -1,3 +1,9 @@
+	.include "asm/macros.inc"
+	.include "constants/constants.inc"
+
+	.section .rodata
+    .align 2
+
 gUnk_080D1E6C:: @ 080D1E6C
 	.4byte sub_08048684
 	.4byte sub_0804869C
