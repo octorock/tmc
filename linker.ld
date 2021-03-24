@@ -1062,6 +1062,17 @@ SECTIONS {
         data/data_080D0448.o(.rodata);
         src/enemy/gyorgMale.o(.rodata);
         data/data_080D1C70.o(.rodata);
+        data/animations/enemy/gyorgChild.o(.rodata);
+        data/const/enemy/gyorgFemaleEye.o(.rodata);
+        data/animations/enemy/gyorgFemaleEye.o(.rodata);
+        data/const/enemy/enemy62.o(.rodata);
+        data/animations/enemy/enemy62.o(.rodata);
+        data/const/enemy/gyorgFemaleMouth.o(.rodata);
+        data/animations/enemy/gyorgFemaleMouth.o(.rodata);
+        data/const/enemy/enemy64.o(.rodata);
+        data/const/enemy/treeItem.o(.rodata);
+        data/const/enemy/enemy66.o(.rodata);
+        data/const/code_08049D30.o(.rodata);
         src/enemy.o(.rodata);
         data/data_080D3D94.o(.rodata);
         data/entity_headers.o(.rodata);
