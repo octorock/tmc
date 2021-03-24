@@ -2,7 +2,7 @@
 	.include "constants/constants.inc"
 
 	.section .rodata
-    .align 2
+ @   .align 2
 
 gUnk_080CEA66:: @ 080CEA66
 	.incbin "baserom.gba", 0x0CEA66, 0x0000005

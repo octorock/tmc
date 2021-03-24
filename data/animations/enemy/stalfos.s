@@ -2,7 +2,7 @@
 	.include "constants/constants.inc"
 
 	.section .rodata
-    .align 2
+@    .align 2
 
 gUnk_080CF942:: @ 080CF942
 	.incbin "baserom.gba", 0x0CF942, 0x0000004

@@ -2,7 +2,7 @@
 	.include "constants/constants.inc"
 
 	.section .rodata
-    .align 2
+@    .align 2
 
 gUnk_080CE60E:: @ 080CE60E
 	.incbin "baserom.gba", 0x0CE60E, 0x0000018
