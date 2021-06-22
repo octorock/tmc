@@ -236,3 +236,41 @@ usa: ; @$(MAKE) GAME_VERSION=USA
 demo: ; @$(MAKE) GAME_VERSION=DEMO
 jp: ; @$(MAKE) GAME_VERSION=JP
 eu: ; @$(MAKE) GAME_VERSION=EU
+
+
+ifeq ($(GAME_VERSION), USA)
+baserom.gba:
+	$(error "You need to provide a NA ROM as baserom.gba")
+.PHONY: baserom_demo.gba baserom_jp.gba baserom_eu.gba
+baserom_demo.gba:
+baserom_jp.gba:
+baserom_eu.gba:
+endif
+ifeq ($(GAME_VERSION), DEMO)
+baserom.gba:
+	$(error "You need to provide a NA ROM as baserom.gba")
+baserom_demo.gba:
+	$(error "You need to provide a demo ROM as baserom_demo.gba")
+.PHONY: baserom_jp.gba baserom_eu.gba
+baserom_jp.gba:
+baserom_eu.gba:
+endif
+ifeq ($(GAME_VERSION), JP)
+baserom.gba:
+	$(error "You need to provide a NA ROM as baserom.gba")
+baserom_jp.gba:
+	$(error "You need to provide a JP ROM as baserom_jp.gba")
+.PHONY: baserom_demo.gba baserom_eu.gba
+baserom_demo.gba:
+baserom_eu.gba:
+endif
+ifeq ($(GAME_VERSION), EU)
+baserom.gba:
+	$(error "You need to provide a NA ROM as baserom.gba")
+baserom_jp.gba:
+	$(error "You need to provide a JP ROM as baserom_jp.gba")
+baserom_eu.gba:
+	$(error "You need to provide a EU ROM as baserom_eu.gba")
+.PHONY: baserom_demo.gba
+baserom_demo.gba:
+endif
